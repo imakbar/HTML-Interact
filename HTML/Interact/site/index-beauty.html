@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beauty Salon Home | Interact Responsive Template</title>
+
+	<link rel="shortcut icon" href="assets/images/logo/favicon.png">
+	<link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="assets/vendors/menu/src/main.menu.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors-gh.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors-g.css">
+
+	<!-- CAROUSEL -->
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.theme.default.min.css">
+
+	<!-- ANIMATE -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animate/animate.css">
+
+	<!-- ANIMATED HEADLINES -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animated-headline/css/style.css">
+
+	<!-- FANCY BOX -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/jquery.fancybox.min.css">
+
+
+	<style>
+	:root{--r:#d9778f;--r2:#b5506b;--g:#c9a45c;--p:#3a1f35;--b:#fdeef1;--b2:#f8d7de}
+	.b-serif{font-family:'Playfair Display',Georgia,serif}
+	.p-rose{background:var(--r2)!important} .p-plum{background:var(--p)!important} .p-plum--hover:hover{background:var(--p)!important}
+	.p-gold--hover:hover{background:var(--g)!important} .p-gold-t{color:var(--g)} .p-gold-bc{border-color:var(--g)!important}
+	.p-plum-t{color:var(--p)} .p-blush{background:var(--b)} .p-rose-t{color:var(--r2)}
+	.p-ls{letter-spacing:4px;font-size:12px}
+	.p-orn{display:inline-block;width:90px;height:12px;background:linear-gradient(var(--g),var(--g)) left center/34px 1px no-repeat,linear-gradient(var(--g),var(--g)) right center/34px 1px no-repeat;position:relative}
+	.p-orn:after{content:"";position:absolute;left:50%;top:50%;width:9px;height:9px;background:var(--g);transform:translate(-50%,-50%) rotate(45deg)}
+	.bs-header .main-menu ul li > a{color:var(--p);font-weight:600;letter-spacing:1px}
+	.bs-header .main-menu ul li:hover > a,.bs-header .main-menu ul li.current-menu > a{color:var(--r2)}
+	.bs-hero{background:linear-gradient(120deg,#fff7f8 0%,var(--b) 55%,var(--b2) 100%);position:relative;overflow:hidden}
+	.bs-hero-title{font-size:64px;line-height:1.08;color:var(--p)}
+	@media (max-width:991px){.bs-hero-title{font-size:46px}}
+	@media (max-width:575px){.bs-hero-title{font-size:36px}.bs-hero .btn{display:block;margin:0 0 12px!important}}
+	.bs-card{background:#fff;border:1px solid #f0d9de;text-align:center;transition:transform .3s,box-shadow .3s,border-color .3s}
+	.bs-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(58,31,53,.14);border-color:var(--g)}
+	.bs-ico{width:84px;height:84px;border-radius:50%;background:var(--b);display:flex;align-items:center;justify-content:center;border:1px dashed var(--g)}
+	.bs-ico img{width:44px;height:44px}
+	.bs-gal{position:relative;overflow:hidden;display:block}
+	.bs-gal img{width:100%;display:block;transition:transform .6s}
+	.bs-gal:hover img{transform:scale(1.1)}
+	.bs-gal .ov{position:absolute;inset:0;background:rgba(58,31,53,.78);opacity:0;transition:opacity .35s;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff}
+	.bs-gal:hover .ov{opacity:1}
+	.bs-menu li{display:flex;align-items:flex-start;padding:12px 0}
+	.bs-menu li .n{font-weight:600;color:var(--p)}
+	.bs-menu li .d{flex:1;border-bottom:2px dotted #d9c3a0;margin:0 10px;height:0;margin-top:12px}
+	.bs-menu li .pr{font-weight:800;color:var(--r2)}
+	.bs-menu small{display:block;color:#8a7a86;font-weight:400}
+	.bs-stylist{background:#fff;overflow:hidden;border:1px solid #f0d9de}
+	.bs-stylist img{width:100%;display:block;transition:transform .5s}
+	.bs-stylist:hover img{transform:scale(1.05)}
+	select.form-control{height:auto;min-height:52px;line-height:1.4}
+	.bs-frame{position:relative}
+	.bs-frame:before{content:"";position:absolute;inset:-16px 16px 16px -16px;border:2px solid var(--g);z-index:0}
+	.bs-frame img{position:relative;z-index:1;display:block;width:100%}
+</style>
+</head>
+<body class="one-page" data-target="#header" data-spy="scroll" data-offset="100">
+
+	<div class="p-plum text-white text-size-12 pt-8 pb-8 d-none d-md-block">
+		<div class="container d-flex align-items-center flex-wrap">
+			<span class="mr-s3"><i class="fa fa-phone p-gold-t mr-5"></i> (123) 456-7890</span>
+			<span class="mr-s3"><i class="fa fa-map-marker p-gold-t mr-5"></i> 12 Rose Lane, San Francisco</span>
+			<span class="ml-auto text-uppercase p-gold-t text-bold-600">Tue - Sat 9am - 8pm &nbsp;|&nbsp; Sun 10am - 5pm</span>
+		</div>
+	</div>
+	<div id="header" class="main-header header-shadow bs-header">
+		<div class="container"><div class="main-header-container">
+			<div class="logo" data-mobile-logo="assets/images/beauty/logo-dark.svg" data-sticky-logo="assets/images/beauty/logo-dark.svg"><a href="index-beauty.html"><img src="assets/images/beauty/logo-dark.svg" alt="Bloom and Blush Beauty Studio" style="max-height:54px;width:auto"/></a></div>
+			<div class="burger-menu"><div class="line-menu line-half first-line"></div><div class="line-menu"></div><div class="line-menu line-half last-line"></div></div>
+			<nav class="main-menu menu-caret submenu-top-border submenu-scale"><ul id="mainNav"><li><a data-hash data-hash-offset="70" href="#home">Home</a></li><li><a data-hash data-hash-offset="70" href="#services">Services</a></li><li><a data-hash data-hash-offset="70" href="#about">About</a></li><li><a data-hash data-hash-offset="70" href="#gallery">Gallery</a></li><li><a data-hash data-hash-offset="70" href="#prices">Prices</a></li><li><a data-hash data-hash-offset="70" href="#book" class="p-rose text-white text-bold-600">Book Now</a></li></ul></nav>
+		</div></div>
+	</div>
+	<section id="home" class="bs-hero">
+		<div class="container pt-s5 pb-s5">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-12">
+					<h6 class="p-gold-t text-uppercase p-ls text-bold-600 mb-s2">Hair &middot; Nails &middot; Skin &middot; Makeup</h6>
+					<h1 class="b-serif text-bold-700 bs-hero-title mb-s3">Reveal your <em class="p-rose-t">natural</em> beauty.</h1>
+					<p class="text-size-18 text-bold-300 mb-s4" style="max-width:500px;color:#6b4f63">A calm, luxurious studio where skilled artists tailor every treatment to you. Step in, relax and leave glowing.</p>
+					<a data-hash data-hash-offset="70" href="#book" class="btn btn-lg p-rose text-white p-plum--hover text-uppercase text-bold-600 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal">Book appointment <i class="fa fa-arrow-right ml-s1"></i></a>
+					<a data-hash data-hash-offset="70" href="#prices" class="btn btn-lg bs-solid bw-s1 p-gold-bc p-plum-t p-gold--hover text-white--hover text-uppercase text-bold-600 text-size-s1 rounded-0 ml-s1">View price menu</a>
+					<div class="d-flex mt-s4 align-items-center">
+						<div class="mr-s3"><h3 class="b-serif p-plum-t text-bold-700 text-size-30 mb-0">12+</h3><span class="text-size-12 text-uppercase" style="color:#6b4f63">Years</span></div>
+						<div class="mr-s3 pl-s3" style="border-left:1px solid #e2bfc7"><h3 class="b-serif p-plum-t text-bold-700 text-size-30 mb-0">8k+</h3><span class="text-size-12 text-uppercase" style="color:#6b4f63">Happy clients</span></div>
+						<div class="pl-s3" style="border-left:1px solid #e2bfc7"><h3 class="b-serif p-plum-t text-bold-700 text-size-30 mb-0">4.9</h3><span class="text-size-12 text-uppercase" style="color:#6b4f63">Rating</span></div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 text-center mt-s3"><img src="assets/images/beauty/hero.svg" alt="Beauty portrait" class="img-fluid" style="max-width:520px;width:100%"></div>
+			</div>
+		</div>
+	</section><section id="services" class="bg-white pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-600 p-gold-t text-uppercase p-ls">Our treatments</h6><h1 class="b-serif text-bold-700 p-plum-t text-size-40">Indulge in every detail</h1><div class="mt-s2 mb-s3 d-flex justify-content-center"><span class="p-orn"></span></div></div><div class="row"><div class="col-lg-4 col-md-6 col-sm-12"><div class="bs-card p-s3 mt-s2 mb-s2 h-100"><div class="bs-ico mx-auto mb-s2"><img src="assets/images/beauty/icon-scissors.svg" alt="Hair styling"></div><h3 class="b-serif p-plum-t text-bold-700 text-size-22 mb-s1">Hair styling</h3><p class="mb-s1" style="color:#7a6573">Precision cuts, colour, balayage and blow-dries by award-winning stylists.</p><a href="#book" data-hash data-hash-offset="70" class="p-rose-t text-bold-600 text-uppercase text-size-12">Book now <i class="fa fa-arrow-right"></i></a></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="bs-card p-s3 mt-s2 mb-s2 h-100"><div class="bs-ico mx-auto mb-s2"><img src="assets/images/beauty/icon-nail.svg" alt="Nail care"></div><h3 class="b-serif p-plum-t text-bold-700 text-size-22 mb-s1">Nail care</h3><p class="mb-s1" style="color:#7a6573">Manicures, pedicures, gel and nail art using long-lasting, gentle polishes.</p><a href="#book" data-hash data-hash-offset="70" class="p-rose-t text-bold-600 text-uppercase text-size-12">Book now <i class="fa fa-arrow-right"></i></a></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="bs-card p-s3 mt-s2 mb-s2 h-100"><div class="bs-ico mx-auto mb-s2"><img src="assets/images/beauty/icon-lipstick.svg" alt="Makeup artistry"></div><h3 class="b-serif p-plum-t text-bold-700 text-size-22 mb-s1">Makeup artistry</h3><p class="mb-s1" style="color:#7a6573">Everyday glam, evening looks and photoshoot-ready makeup.</p><a href="#book" data-hash data-hash-offset="70" class="p-rose-t text-bold-600 text-uppercase text-size-12">Book now <i class="fa fa-arrow-right"></i></a></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="bs-card p-s3 mt-s2 mb-s2 h-100"><div class="bs-ico mx-auto mb-s2"><img src="assets/images/beauty/icon-lotus.svg" alt="Spa &amp; massage"></div><h3 class="b-serif p-plum-t text-bold-700 text-size-22 mb-s1">Spa &amp; massage</h3><p class="mb-s1" style="color:#7a6573">Relaxing massages and body rituals designed to melt away stress.</p><a href="#book" data-hash data-hash-offset="70" class="p-rose-t text-bold-600 text-uppercase text-size-12">Book now <i class="fa fa-arrow-right"></i></a></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="bs-card p-s3 mt-s2 mb-s2 h-100"><div class="bs-ico mx-auto mb-s2"><img src="assets/images/beauty/icon-mirror.svg" alt="Facials"></div><h3 class="b-serif p-plum-t text-bold-700 text-size-22 mb-s1">Facials</h3><p class="mb-s1" style="color:#7a6573">Customised facials, peels and glow treatments for every skin type.</p><a href="#book" data-hash data-hash-offset="70" class="p-rose-t text-bold-600 text-uppercase text-size-12">Book now <i class="fa fa-arrow-right"></i></a></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="bs-card p-s3 mt-s2 mb-s2 h-100"><div class="bs-ico mx-auto mb-s2"><img src="assets/images/beauty/icon-brush.svg" alt="Bridal packages"></div><h3 class="b-serif p-plum-t text-bold-700 text-size-22 mb-s1">Bridal packages</h3><p class="mb-s1" style="color:#7a6573">Hair, makeup and nails for you and your bridal party, on the day.</p><a href="#book" data-hash data-hash-offset="70" class="p-rose-t text-bold-600 text-uppercase text-size-12">Book now <i class="fa fa-arrow-right"></i></a></div></div></div></div></section>
+	<section id="about" class="p-blush pt-s5 pb-s5">
+		<div class="container"><div class="row align-items-center">
+			<div class="col-lg-5 col-md-12 mb-s4"><div class="bs-frame mx-auto" style="max-width:440px"><img src="assets/images/beauty/about.svg" alt="Bloom and Blush studio portrait"></div></div>
+			<div class="col-lg-7 col-md-12 pl-lg-s5">
+				<div class=""><h6 class="text-bold-600 p-gold-t text-uppercase p-ls">About the studio</h6><h1 class="b-serif text-bold-700 p-plum-t text-size-40">A sanctuary of style and calm</h1><div class="mt-s2 mb-s3 "><span class="p-orn"></span></div></div>
+				<p class="text-size-16" style="color:#6b4f63">Since 2014, Bloom &amp; Blush has been a place where people come to feel their best. Our artists combine technique with warmth, listening first so every look is unmistakably yours.</p>
+				<ul class="p-plum-t text-bold-600 mb-s3"><li class="mb-s1"><i class="fa fa-check-circle p-gold-t mr-s1"></i> Premium, cruelty-free products</li><li class="mb-s1"><i class="fa fa-check-circle p-gold-t mr-s1"></i> Certified stylists and therapists</li><li class="mb-s1"><i class="fa fa-check-circle p-gold-t mr-s1"></i> Private treatment suites</li><li class="mb-s1"><i class="fa fa-check-circle p-gold-t mr-s1"></i> Complimentary tea &amp; consultation</li></ul>
+				<a data-hash data-hash-offset="70" href="#stylists" class="btn btn-lg p-rose text-white p-plum--hover text-uppercase text-bold-600 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal">Meet our artists</a>
+			</div>
+		</div></div>
+	</section><section id="gallery" class="bg-white pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-600 p-gold-t text-uppercase p-ls">Our work</h6><h1 class="b-serif text-bold-700 p-plum-t text-size-40">Looks we love</h1><div class="mt-s2 mb-s3 d-flex justify-content-center"><span class="p-orn"></span></div></div><div class="row" style="margin:0 -8px"><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="bs-gal mb-s1"><img src="assets/images/beauty/gallery-1.svg" alt="Colour &amp; Cut"><div class="ov"><span class="p-gold-t text-uppercase text-size-12 text-bold-600 p-ls">Hair</span><h3 class="b-serif text-white text-size-22 mt-5 mb-0">Colour &amp; Cut</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="bs-gal mb-s1"><img src="assets/images/beauty/gallery-2.svg" alt="Signature Lips"><div class="ov"><span class="p-gold-t text-uppercase text-size-12 text-bold-600 p-ls">Makeup</span><h3 class="b-serif text-white text-size-22 mt-5 mb-0">Signature Lips</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="bs-gal mb-s1"><img src="assets/images/beauty/gallery-3.svg" alt="Gel Manicure"><div class="ov"><span class="p-gold-t text-uppercase text-size-12 text-bold-600 p-ls">Nails</span><h3 class="b-serif text-white text-size-22 mt-5 mb-0">Gel Manicure</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="bs-gal mb-s1"><img src="assets/images/beauty/gallery-4.svg" alt="Spa Ritual"><div class="ov"><span class="p-gold-t text-uppercase text-size-12 text-bold-600 p-ls">Wellness</span><h3 class="b-serif text-white text-size-22 mt-5 mb-0">Spa Ritual</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="bs-gal mb-s1"><img src="assets/images/beauty/gallery-5.svg" alt="Bridal Glam"><div class="ov"><span class="p-gold-t text-uppercase text-size-12 text-bold-600 p-ls">Makeup</span><h3 class="b-serif text-white text-size-22 mt-5 mb-0">Bridal Glam</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="bs-gal mb-s1"><img src="assets/images/beauty/gallery-6.svg" alt="Glow Facial"><div class="ov"><span class="p-gold-t text-uppercase text-size-12 text-bold-600 p-ls">Skin</span><h3 class="b-serif text-white text-size-22 mt-5 mb-0">Glow Facial</h3></div></a></div></div></div></section>
+	<section id="prices" class="p-blush pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-600 p-gold-t text-uppercase p-ls">Price menu</h6><h1 class="b-serif text-bold-700 p-plum-t text-size-40">Simple, transparent pricing</h1><div class="mt-s2 mb-s3 d-flex justify-content-center"><span class="p-orn"></span></div></div>
+		<div class="row"><div class="col-12"><div class="bg-white p-s4" style="border:1px solid #f0d9de"><div class="row">
+			<div class="col-lg-6 col-md-12"><h3 class="b-serif p-plum-t text-bold-700 text-size-24 mb-s1">Hair</h3><ul class="bs-menu mb-s3"><li><span class="n">Women&#39;s cut &amp; style<small>Includes wash and blow-dry</small></span><span class="d"></span><span class="pr">$55</span></li><li><span class="n">Men&#39;s cut</span><span class="d"></span><span class="pr">$35</span></li><li><span class="n">Full colour<small>Root to tip</small></span><span class="d"></span><span class="pr">$95</span></li><li><span class="n">Balayage<small>Includes toner and style</small></span><span class="d"></span><span class="pr">$160</span></li><li><span class="n">Keratin smoothing</span><span class="d"></span><span class="pr">$180</span></li></ul></div>
+			<div class="col-lg-6 col-md-12"><h3 class="b-serif p-plum-t text-bold-700 text-size-24 mb-s1">Nails</h3><ul class="bs-menu mb-s3"><li><span class="n">Classic manicure</span><span class="d"></span><span class="pr">$30</span></li><li><span class="n">Gel manicure<small>Lasts up to 3 weeks</small></span><span class="d"></span><span class="pr">$45</span></li><li><span class="n">Spa pedicure<small>Scrub, mask and massage</small></span><span class="d"></span><span class="pr">$55</span></li><li><span class="n">Nail art<small>Per nail, from</small></span><span class="d"></span><span class="pr">$5</span></li><li><span class="n">Acrylic full set</span><span class="d"></span><span class="pr">$70</span></li></ul></div>
+			<div class="col-lg-6 col-md-12"><h3 class="b-serif p-plum-t text-bold-700 text-size-24 mb-s1">Skin &amp; Makeup</h3><ul class="bs-menu mb-s3"><li><span class="n">Signature facial<small>60 minutes</small></span><span class="d"></span><span class="pr">$85</span></li><li><span class="n">Deep-cleanse peel</span><span class="d"></span><span class="pr">$95</span></li><li><span class="n">Day makeup</span><span class="d"></span><span class="pr">$60</span></li><li><span class="n">Evening glam<small>Includes lashes</small></span><span class="d"></span><span class="pr">$90</span></li><li><span class="n">Brow &amp; lash tint</span><span class="d"></span><span class="pr">$40</span></li></ul></div>
+			<div class="col-lg-6 col-md-12"><h3 class="b-serif p-plum-t text-bold-700 text-size-24 mb-s1">Spa &amp; Bridal</h3><ul class="bs-menu mb-s3"><li><span class="n">Relaxation massage<small>60 minutes</small></span><span class="d"></span><span class="pr">$90</span></li><li><span class="n">Hot stone therapy<small>75 minutes</small></span><span class="d"></span><span class="pr">$115</span></li><li><span class="n">Bridal trial<small>Hair and makeup</small></span><span class="d"></span><span class="pr">$120</span></li><li><span class="n">Bridal day package<small>Hair, makeup and nails</small></span><span class="d"></span><span class="pr">$320</span></li><li><span class="n">Bridesmaid styling<small>Per person</small></span><span class="d"></span><span class="pr">$75</span></li></ul></div>
+		</div></div></div></div>
+	</div></section>
+	<section class="pt-s5 pb-s5 overlay-wrap" data-plugin-parallax data-plugin-options="{'speed': 1.4}" data-image-src="assets/images/bg/bg-1.jpg">
+		<div class="container overlay-container text-center">
+			<h6 class="p-gold-t text-uppercase p-ls text-bold-600">This month only</h6>
+			<h1 class="b-serif text-white text-bold-700" style="font-size:48px">20% off your first visit</h1>
+			<p class="text-white text-size-18 text-bold-300 mb-s3" style="max-width:640px;margin-left:auto;margin-right:auto">New clients receive a complimentary consultation and a 20% treat on any hair, nail or facial service.</p>
+			<a data-hash data-hash-offset="70" href="#book" class="btn btn-lg p-rose text-white p-plum--hover text-uppercase text-bold-600 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal">Claim the offer</a>
+		</div>
+		<div class="overlay p-plum" style="opacity:.9"></div>
+	</section><section id="stylists" class="bg-white pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-600 p-gold-t text-uppercase p-ls">Our artists</h6><h1 class="b-serif text-bold-700 p-plum-t text-size-40">The hands behind the beauty</h1><div class="mt-s2 mb-s3 d-flex justify-content-center"><span class="p-orn"></span></div></div><div class="row"><div class="col-lg-3 col-md-6 col-sm-6"><div class="bs-stylist mt-s2 mb-s2"><img src="assets/images/beauty/stylist-1.svg" alt="Isabella Rossi"><div class="p-s2 text-center"><h3 class="b-serif p-plum-t text-bold-700 text-size-20 mb-5">Isabella Rossi</h3><span class="p-gold-t text-size-12 text-bold-600 text-uppercase p-ls" style="letter-spacing:2px">Creative director</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="p-plum-t" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="bs-stylist mt-s2 mb-s2"><img src="assets/images/beauty/stylist-2.svg" alt="Amara Johnson"><div class="p-s2 text-center"><h3 class="b-serif p-plum-t text-bold-700 text-size-20 mb-5">Amara Johnson</h3><span class="p-gold-t text-size-12 text-bold-600 text-uppercase p-ls" style="letter-spacing:2px">Colour specialist</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="p-plum-t" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="bs-stylist mt-s2 mb-s2"><img src="assets/images/beauty/stylist-3.svg" alt="Daniel Cho"><div class="p-s2 text-center"><h3 class="b-serif p-plum-t text-bold-700 text-size-20 mb-5">Daniel Cho</h3><span class="p-gold-t text-size-12 text-bold-600 text-uppercase p-ls" style="letter-spacing:2px">Senior stylist</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="p-plum-t" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="bs-stylist mt-s2 mb-s2"><img src="assets/images/beauty/stylist-4.svg" alt="Sophie Laurent"><div class="p-s2 text-center"><h3 class="b-serif p-plum-t text-bold-700 text-size-20 mb-5">Sophie Laurent</h3><span class="p-gold-t text-size-12 text-bold-600 text-uppercase p-ls" style="letter-spacing:2px">Makeup artist</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="p-plum-t" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="p-plum-t" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div></div></div></section>
+	<section id="reviews" class="p-blush pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-600 p-gold-t text-uppercase p-ls">Testimonials</h6><h1 class="b-serif text-bold-700 p-plum-t text-size-40">Words from our guests</h1><div class="mt-s2 mb-s3 d-flex justify-content-center"><span class="p-orn"></span></div></div>
+		<div class="row justify-content-center"><div class="col-lg-8 col-md-10 col-sm-12"><div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 30, 'loop': true, 'autoplay': true, 'autoplayTimeout': 6500, 'nav': false, 'dots': true}"><div class="text-center px-s2"><div class="p-gold-t text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="b-serif p-plum-t text-size-22 mb-s3" style="font-style:italic;font-weight:600">&ldquo;I have been to many salons, but nothing compares. Isabella listened to exactly what I wanted and my hair has never looked better.&rdquo;</p><img src="assets/images/beauty/client-1.svg" alt="Charlotte W." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="p-plum-t text-bold-700 text-size-14 mt-s1 mb-0">Charlotte W.</h5><span class="p-rose-t text-size-12 text-uppercase text-bold-600">Balayage &amp; styling</span></div><div class="text-center px-s2"><div class="p-gold-t text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="b-serif p-plum-t text-size-22 mb-s3" style="font-style:italic;font-weight:600">&ldquo;They made my wedding morning so calm and special. I felt like the best version of myself. Absolutely flawless work from the whole team.&rdquo;</p><img src="assets/images/beauty/client-2.svg" alt="Naomi A." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="p-plum-t text-bold-700 text-size-14 mt-s1 mb-0">Naomi A.</h5><span class="p-rose-t text-size-12 text-uppercase text-bold-600">Bridal package</span></div><div class="text-center px-s2"><div class="p-gold-t text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="b-serif p-plum-t text-size-22 mb-s3" style="font-style:italic;font-weight:600">&ldquo;The facials here are pure bliss. My skin is glowing and the studio itself is so peaceful. I look forward to every visit!&rdquo;</p><img src="assets/images/beauty/client-3.svg" alt="Emma D." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="p-plum-t text-bold-700 text-size-14 mt-s1 mb-0">Emma D.</h5><span class="p-rose-t text-size-12 text-uppercase text-bold-600">Monthly facial</span></div></div></div></div>
+	</div></section>
+	<section id="book" class="pt-s5 pb-s5 overlay-wrap" data-plugin-parallax data-plugin-options="{'speed': 1.4}" data-image-src="assets/images/bg/bg-3.jpg">
+		<div class="container overlay-container"><div class="row align-items-center">
+			<div class="col-lg-5 col-md-12 mb-s3">
+				<h6 class="p-gold-t text-uppercase p-ls text-bold-600">Reservations</h6>
+				<h1 class="b-serif text-white text-bold-700 text-size-40">Book your pampering session</h1>
+				<p class="text-white text-size-18 text-bold-300 mb-s3">Choose your treatment and preferred time. We will confirm your appointment within a few hours.</p>
+				<ul class="text-white text-bold-600"><li class="mb-s1"><i class="fa fa-check-circle p-gold-t mr-s1"></i> Free consultation with every booking</li><li class="mb-s1"><i class="fa fa-check-circle p-gold-t mr-s1"></i> Easy rescheduling up to 24 hours before</li><li><i class="fa fa-check-circle p-gold-t mr-s1"></i> Gift vouchers available</li></ul>
+			</div>
+			<div class="col-lg-7 col-md-12"><form class="bg-white p-s4" style="border-top:4px solid #c9a45c" action="#" onsubmit="return false;">
+				<h3 class="b-serif p-plum-t text-bold-700 text-size-26 mb-s2">Request an appointment</h3>
+				<div class="form-row"><div class="form-group col-md-6"><input type="text" class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark" placeholder="Full name"></div><div class="form-group col-md-6"><input type="tel" class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark" placeholder="Phone number"></div></div>
+				<div class="form-row"><div class="form-group col-md-6"><input type="email" class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark" placeholder="Email address"></div><div class="form-group col-md-6"><select class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark"><option>Select treatment</option><option>Hair styling</option><option>Nail care</option><option>Makeup artistry</option><option>Spa & massage</option><option>Facials</option><option>Bridal packages</option></select></div></div>
+				<div class="form-row"><div class="form-group col-md-6"><input type="date" class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark"></div><div class="form-group col-md-6"><select class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark"><option>Preferred artist</option><option>No preference</option><option>Isabella Rossi</option><option>Amara Johnson</option><option>Daniel Cho</option><option>Sophie Laurent</option></select></div></div>
+				<div class="form-group"><textarea class="form-control bg-white text-dark text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-dark" rows="3" placeholder="Tell us about the look or treatment you have in mind"></textarea></div>
+				<button type="submit" class="btn btn-lg p-rose text-white p-plum--hover text-uppercase text-bold-600 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal btn-block">Request appointment</button>
+			</form></div>
+		</div></div>
+		<div class="overlay p-plum" style="opacity:.92"></div>
+	</section>
+	<footer class="p-plum pt-s5 pb-s3">
+		<div class="container"><div class="row">
+			<div class="col-lg-4 col-md-12"><div class="mt-s2 mb-s2"><a href="index-beauty.html"><img class="mb-s3" src="assets/images/beauty/logo-light.svg" alt="Bloom and Blush Beauty Studio" style="max-height:54px;width:auto"></a><p class="text-v6-white">A boutique beauty studio offering hair, nails, skin and makeup artistry in a calm, welcoming space.</p><ul class="social list-inline text-size-s1 mt-s3"><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-pinterest-p"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-youtube"></i></a></li></ul></div></div>
+			<div class="col-lg-2 col-md-4 col-sm-6"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1 b-serif">Explore</h5><hr class="w--40 bs-solid p-gold-bc bw-s2 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul><li class="mb-s1"><i class="icon-arrow-right p-gold-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#services" data-hash data-hash-offset="70">Treatments</a></li><li class="mb-s1"><i class="icon-arrow-right p-gold-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#gallery" data-hash data-hash-offset="70">Gallery</a></li><li class="mb-s1"><i class="icon-arrow-right p-gold-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#prices" data-hash data-hash-offset="70">Price menu</a></li><li class="mb-s1"><i class="icon-arrow-right p-gold-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#stylists" data-hash data-hash-offset="70">Our artists</a></li><li class="mb-s1"><i class="icon-arrow-right p-gold-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#book" data-hash data-hash-offset="70">Book online</a></li></ul></div></div>
+			<div class="col-lg-3 col-md-4 col-sm-6"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1 b-serif">Opening hours</h5><hr class="w--40 bs-solid p-gold-bc bw-s2 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul class="text-v6-white"><li class="mb-s1">Mon: <span class="p-gold-t text-bold-600">Closed</span></li><li class="mb-s1">Tue - Sat: <span class="text-white text-bold-600">9am - 8pm</span></li><li class="mb-s1">Sunday: <span class="text-white text-bold-600">10am - 5pm</span></li></ul></div></div>
+			<div class="col-lg-3 col-md-4 col-sm-12"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1 b-serif">Visit us</h5><hr class="w--40 bs-solid p-gold-bc bw-s2 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul class="text-v6-white"><li class="mb-s2 d-flex"><i class="fa fa-map-marker p-gold-t text-size-18 mr-s2"></i><span>12 Rose Lane<br>San Francisco, CA 94102</span></li><li class="mb-s2 d-flex"><i class="fa fa-phone p-gold-t text-size-18 mr-s2"></i><span>(123) 456-7890</span></li><li class="d-flex"><i class="fa fa-envelope p-gold-t text-size-18 mr-s2"></i><a class="text-v6-white" href="mailto:hello@bloomandblush.example">hello@bloomandblush.example</a></li></ul></div></div>
+		</div></div>
+	</footer>
+	<footer class="bg-dark pt-s2 pb-s2"><div class="container"><p class="m-0 text-v6-white text-size-s1 text-center">&copy; Copyright 2026 <a href="#" class="text-white text-bold-700">Bloom &amp; Blush Beauty Studio</a>. All rights reserved. Demo content only.</p></div></footer>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/vendors/appear/jquery.appear.min.js"></script>
+	<script src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/vendors/common/common.min.js"></script>
+
+	<!-- FANCY-BOX -->
+	<script src="assets/vendors/fancybox/jquery.fancybox.min.js"></script>
+
+	<!-- MENU -->
+	<script src="assets/vendors/menu/src/main.menu.js"></script>
+
+	<!-- CAROUSEL -->
+	<script src="assets/vendors/owl.carousel/owl.carousel.min.js"></script>
+
+	<!-- ANIMATED-HEADLINES -->
+	<script src="assets/vendors/animated-headline/js/animated-headline.js"></script>
+
+	<!-- VIDEO-BACKGROUND -->
+	<script src="assets/vendors/vide/vide.min.js"></script>
+
+	<!-- COUNDOWN -->
+	<script src="assets/vendors/countdown/jquery.countdown.min.js"></script>
+
+	<!-- ELEVATEZOOM-MASTER -->
+	<script src="assets/vendors/elevatezoom-master/jquery.elevatezoom.js"></script>
+
+
+
+	<!-- MAP (required by custom.js) -->
+	<script src="assets/vendors/gmap/jquery.gmap.min.js"></script>
+
+	<!-- THEME-CUSTOM -->
+	<script src="assets/js/main.js"></script>
+
+	<!-- THEME-INITIALIZATION-FILES -->
+	<script src="assets/js/theme.init.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>
