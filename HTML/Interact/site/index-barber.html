@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Barber Shop Home | Interact Responsive Template</title>
+
+	<link rel="shortcut icon" href="assets/images/logo/favicon.png">
+	<link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:500,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="assets/vendors/menu/src/main.menu.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors-gh.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors-g.css">
+
+	<!-- CAROUSEL -->
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.theme.default.min.css">
+
+	<!-- ANIMATE -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animate/animate.css">
+
+	<!-- ANIMATED HEADLINES -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animated-headline/css/style.css">
+
+	<!-- FANCY BOX -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/jquery.fancybox.min.css">
+
+
+	<style>
+	:root{--red:#c8312f;--brass:#c9a24d;--bk:#111214;--bk2:#1d1f23;--cr:#f3ead8}
+	.k-head{font-family:'Oswald','Arial Narrow',sans-serif;font-weight:600;letter-spacing:1px}
+	.k-red{background:var(--red)!important} .k-brass{background:var(--brass)!important} .k-brass--hover:hover{background:var(--brass)!important}
+	.k-brass-t{color:var(--brass)} .k-brass-bc{border-color:var(--brass)!important} .k-red-t{color:var(--red)}
+	.k-ls{letter-spacing:4px;font-size:12px}
+	.k-bar{width:70px;height:6px;background:repeating-linear-gradient(135deg,var(--red) 0 8px,#fff 8px 16px,#2c5aa0 16px 24px)}
+	.k-pole-band{height:14px;background:repeating-linear-gradient(135deg,var(--red) 0 18px,#fff 18px 36px,#2c5aa0 36px 54px)}
+	.kb-header{background:var(--bk)!important}
+	.kb-header .main-menu ul li > a{color:#fff;font-weight:600;letter-spacing:1px}
+	.kb-header .main-menu ul li:hover > a,.kb-header .main-menu ul li.current-menu > a{color:var(--brass)}
+	.kb-header .line-menu{background:#fff}
+	@media (max-width:1199px){.kb-header .main-menu{background:var(--bk)}}
+	.kb-hero{background:radial-gradient(circle at 75% 45%,rgba(200,49,47,.22),transparent 55%),var(--bk);position:relative;overflow:hidden}
+	.kb-hero-title{font-size:84px;line-height:1;color:#fff}
+	@media (max-width:991px){.kb-hero-title{font-size:56px}}
+	@media (max-width:575px){.kb-hero-title{font-size:40px}.kb-hero .btn{display:block;margin:0 0 12px!important}}
+	.kb-card{background:var(--bk2);border:1px solid #2e3138;transition:transform .3s,border-color .3s}
+	.kb-card:hover{transform:translateY(-6px);border-color:var(--brass)}
+	.kb-ico img{width:54px;height:54px}
+	.kb-gal{position:relative;overflow:hidden;display:block}
+	.kb-gal img{width:100%;display:block;transition:transform .6s,filter .4s;filter:grayscale(.35)}
+	.kb-gal:hover img{transform:scale(1.08);filter:none}
+	.kb-gal .ov{position:absolute;left:0;right:0;bottom:0;padding:18px;background:linear-gradient(transparent,rgba(0,0,0,.9))}
+	.kb-bar{overflow:hidden;white-space:nowrap}
+	.kb-bar span{display:inline-block;padding-left:100%;animation:kbscroll 28s linear infinite}
+	@keyframes kbscroll{to{transform:translateX(-100%)}}
+	.kb-plan li{padding:10px 0;border-top:1px dashed rgba(255,255,255,.18);list-style:none}
+	.kb-plan{padding:0 28px!important}
+	.kb-plan li i{color:var(--brass);margin-right:10px}
+	.k-red .kb-plan li i{color:#fff}
+	.kb-bs{background:var(--bk2);overflow:hidden;border:1px solid #2e3138}
+	.kb-bs img{width:100%;display:block;transition:transform .5s}
+	.kb-bs:hover img{transform:scale(1.05)}
+	#about{overflow:hidden}
+	.kb-frame{position:relative}
+	.kb-frame:before{content:"";position:absolute;inset:16px -16px -16px 16px;border:2px solid var(--brass)}
+	.kb-frame img{position:relative;display:block;width:100%}
+	select.form-control{height:auto;min-height:52px;line-height:1.4}
+	select.form-control option{color:#000}
+	.k-in::placeholder{color:#9aa0a6}
+	.kb-hours li{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px dashed rgba(255,255,255,.2)}
+</style>
+</head>
+<body class="one-page" data-target="#header" data-spy="scroll" data-offset="100">
+
+	<div class="k-red text-white text-size-12 pt-8 pb-8 d-none d-md-block">
+		<div class="container d-flex align-items-center flex-wrap text-bold-600">
+			<span class="mr-s3"><i class="fa fa-phone mr-5"></i> (123) 456-7890</span>
+			<span class="mr-s3"><i class="fa fa-map-marker mr-5"></i> 310 Oak Street, San Francisco</span>
+			<span class="ml-auto text-uppercase">Walk-ins welcome &middot; Open 7 days</span>
+		</div>
+	</div>
+	<div id="header" class="main-header header-shadow kb-header">
+		<div class="container"><div class="main-header-container">
+			<div class="logo" data-mobile-logo="assets/images/barber/logo-light.svg" data-sticky-logo="assets/images/barber/logo-light.svg"><a href="index-barber.html"><img src="assets/images/barber/logo-light.svg" alt="Iron and Oak Barber Shop" style="max-height:52px;width:auto"/></a></div>
+			<div class="burger-menu"><div class="line-menu line-half first-line"></div><div class="line-menu"></div><div class="line-menu line-half last-line"></div></div>
+			<nav class="main-menu menu-caret submenu-top-border submenu-scale"><ul id="mainNav"><li><a data-hash data-hash-offset="70" href="#home">Home</a></li><li><a data-hash data-hash-offset="70" href="#services">Services</a></li><li><a data-hash data-hash-offset="70" href="#about">About</a></li><li><a data-hash data-hash-offset="70" href="#gallery">Gallery</a></li><li><a data-hash data-hash-offset="70" href="#pricing">Pricing</a></li><li><a data-hash data-hash-offset="70" href="#barbers">Barbers</a></li><li><a data-hash data-hash-offset="70" href="#book" class="k-red text-white text-bold-700">Book Now</a></li></ul></nav>
+		</div></div>
+	</div>
+	<section id="home" class="kb-hero">
+		<div class="container pt-s5 pb-s5">
+			<div class="row align-items-center pt-s2 pb-s2">
+				<div class="col-lg-7 col-md-12">
+					<h6 class="k-brass-t text-uppercase k-ls text-bold-700 mb-s2"><span class="k-bar d-inline-block mr-s1" style="width:46px;height:6px;vertical-align:middle"></span> Classic cuts &middot; Hot shaves &middot; Beard care</h6>
+					<h1 class="k-head kb-hero-title text-uppercase mb-s3">Sharp cuts. <span class="k-brass-t">Timeless</span> style.</h1>
+					<p class="text-white text-size-18 text-bold-300 mb-s4" style="max-width:540px;opacity:.9">Old-school craft meets modern style. Sit back, enjoy a cold drink and let our master barbers do the rest.</p>
+					<a data-hash data-hash-offset="70" href="#book" class="btn btn-lg k-red text-white k-brass--hover text-dark--hover text-uppercase text-bold-700 text-size-s1 rounded-0 hover-icon-wobble-horizontal">Book your chair <i class="fa fa-arrow-right ml-s1"></i></a>
+					<a data-hash data-hash-offset="70" href="#pricing" class="btn btn-lg bs-solid bw-s2 k-brass-bc k-brass-t k-brass--hover text-dark--hover text-uppercase text-bold-700 text-size-s1 rounded-0 ml-s1">See prices</a>
+					<div class="row mt-s5" style="max-width:520px">
+						<div class="col-4"><h3 class="k-head text-white text-size-34 mb-0">12</h3><span class="text-v6-white text-size-12 text-uppercase">Years of craft</span></div>
+						<div class="col-4"><h3 class="k-head text-white text-size-34 mb-0">25k+</h3><span class="text-v6-white text-size-12 text-uppercase">Cuts delivered</span></div>
+						<div class="col-4"><h3 class="k-head text-white text-size-34 mb-0">4.9</h3><span class="text-v6-white text-size-12 text-uppercase">Rating</span></div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-12 text-center mt-s3"><img src="assets/images/barber/hero.svg" alt="Barber pole, razor and scissors" class="img-fluid" style="max-width:480px;width:100%"></div>
+			</div>
+		</div>
+	</section>
+	<div class="k-pole-band"></div><section id="services" class="bg-dark pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-700 k-brass-t text-uppercase k-ls">What we do</h6><h1 class="k-head text-white text-size-40 text-uppercase">Our barber services</h1><div class="k-bar mt-s2 mb-s3 mx-auto"></div></div><div class="row"><div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card p-s3 mt-s2 mb-s2 h-100"><div class="d-flex align-items-center mb-s2"><div class="kb-ico mr-s2"><img src="assets/images/barber/icon-scissors.svg" alt="Classic haircut"></div><span class="k-head k-brass-t text-size-30 ml-auto">$25</span></div><h3 class="k-head text-white text-size-22 text-uppercase mb-s1">Classic haircut</h3><p class="mb-0 text-v6-white">Scissor and clipper cuts finished with a hot towel and styling.</p></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card p-s3 mt-s2 mb-s2 h-100"><div class="d-flex align-items-center mb-s2"><div class="kb-ico mr-s2"><img src="assets/images/barber/icon-razor.svg" alt="Hot towel shave"></div><span class="k-head k-brass-t text-size-30 ml-auto">$30</span></div><h3 class="k-head text-white text-size-22 text-uppercase mb-s1">Hot towel shave</h3><p class="mb-0 text-v6-white">Straight-razor shave with steaming towels and premium oils.</p></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card p-s3 mt-s2 mb-s2 h-100"><div class="d-flex align-items-center mb-s2"><div class="kb-ico mr-s2"><img src="assets/images/barber/icon-beard.svg" alt="Beard trim &amp; shape"></div><span class="k-head k-brass-t text-size-30 ml-auto">$18</span></div><h3 class="k-head text-white text-size-22 text-uppercase mb-s1">Beard trim &amp; shape</h3><p class="mb-0 text-v6-white">Expert shaping, lining and conditioning to keep your beard sharp.</p></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card p-s3 mt-s2 mb-s2 h-100"><div class="d-flex align-items-center mb-s2"><div class="kb-ico mr-s2"><img src="assets/images/barber/icon-comb.svg" alt="Skin fade"></div><span class="k-head k-brass-t text-size-30 ml-auto">$28</span></div><h3 class="k-head text-white text-size-22 text-uppercase mb-s1">Skin fade</h3><p class="mb-0 text-v6-white">Seamless fades blended to perfection, from low to high.</p></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card p-s3 mt-s2 mb-s2 h-100"><div class="d-flex align-items-center mb-s2"><div class="kb-ico mr-s2"><img src="assets/images/barber/icon-mustache.svg" alt="Moustache styling"></div><span class="k-head k-brass-t text-size-30 ml-auto">$10</span></div><h3 class="k-head text-white text-size-22 text-uppercase mb-s1">Moustache styling</h3><p class="mb-0 text-v6-white">Trim, wax and shape your moustache with precision.</p></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card p-s3 mt-s2 mb-s2 h-100"><div class="d-flex align-items-center mb-s2"><div class="kb-ico mr-s2"><img src="assets/images/barber/icon-brush.svg" alt="Royal treatment"></div><span class="k-head k-brass-t text-size-30 ml-auto">$65</span></div><h3 class="k-head text-white text-size-22 text-uppercase mb-s1">Royal treatment</h3><p class="mb-0 text-v6-white">Cut, shave, facial scrub and massage: the full works.</p></div></div></div></div></section>
+	<section id="about" class="bg-v9-dark pt-s5 pb-s5">
+		<div class="container"><div class="row align-items-center">
+			<div class="col-lg-5 col-md-12 mb-s4"><div class="kb-frame mx-auto" style="max-width:440px"><img src="assets/images/barber/about.svg" alt="Iron and Oak barber shop sign"></div></div>
+			<div class="col-lg-7 col-md-12 pl-lg-s5">
+				<div class=""><h6 class="text-bold-700 k-brass-t text-uppercase k-ls">Our story</h6><h1 class="k-head text-white text-size-40 text-uppercase">Barbering the traditional way</h1><div class="k-bar mt-s2 mb-s3"></div></div>
+				<p class="text-white text-size-16 text-bold-300" style="opacity:.9">Iron &amp; Oak opened in 2012 with one chair and a simple idea: treat every customer like family and every haircut like a craft. Today we are a neighbourhood institution, where the banter is good and the fades are better.</p>
+				<ul class="text-white text-bold-600 mb-s3"><li class="mb-s1"><i class="fa fa-check-circle k-brass-t mr-s1"></i> Master barbers with 10+ years experience</li><li class="mb-s1"><i class="fa fa-check-circle k-brass-t mr-s1"></i> Hot towels, premium oils and tonics</li><li class="mb-s1"><i class="fa fa-check-circle k-brass-t mr-s1"></i> Cold drinks and a relaxed lounge</li><li class="mb-s1"><i class="fa fa-check-circle k-brass-t mr-s1"></i> Walk-ins always welcome</li></ul>
+				<a data-hash data-hash-offset="70" href="#barbers" class="btn btn-lg k-red text-white k-brass--hover text-dark--hover text-uppercase text-bold-700 text-size-s1 rounded-0 hover-icon-wobble-horizontal">Meet the barbers</a>
+			</div>
+		</div></div>
+	</section>
+	<div class="k-pole-band"></div><section id="gallery" class="bg-dark pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-700 k-brass-t text-uppercase k-ls">Fresh from the chair</h6><h1 class="k-head text-white text-size-40 text-uppercase">The lookbook</h1><div class="k-bar mt-s2 mb-s3 mx-auto"></div></div><div class="row" style="margin:0 -8px"><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="kb-gal mb-s1"><img src="assets/images/barber/gallery-1.svg" alt="Classic Taper"><div class="ov"><span class="k-brass-t text-uppercase text-size-12 text-bold-700 k-ls">Fade</span><h3 class="k-head text-white text-size-20 text-uppercase mb-0">Classic Taper</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="kb-gal mb-s1"><img src="assets/images/barber/gallery-2.svg" alt="The Pompadour"><div class="ov"><span class="k-brass-t text-uppercase text-size-12 text-bold-700 k-ls">Style</span><h3 class="k-head text-white text-size-20 text-uppercase mb-0">The Pompadour</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="kb-gal mb-s1"><img src="assets/images/barber/gallery-3.svg" alt="Full Beard Sculpt"><div class="ov"><span class="k-brass-t text-uppercase text-size-12 text-bold-700 k-ls">Beard</span><h3 class="k-head text-white text-size-20 text-uppercase mb-0">Full Beard Sculpt</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="kb-gal mb-s1"><img src="assets/images/barber/gallery-4.svg" alt="Crew Cut"><div class="ov"><span class="k-brass-t text-uppercase text-size-12 text-bold-700 k-ls">Clipper</span><h3 class="k-head text-white text-size-20 text-uppercase mb-0">Crew Cut</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="kb-gal mb-s1"><img src="assets/images/barber/gallery-5.svg" alt="Long &amp; Layered"><div class="ov"><span class="k-brass-t text-uppercase text-size-12 text-bold-700 k-ls">Style</span><h3 class="k-head text-white text-size-20 text-uppercase mb-0">Long &amp; Layered</h3></div></a></div><div class="col-lg-4 col-md-6 col-6"><a href="#book" data-hash data-hash-offset="70" class="kb-gal mb-s1"><img src="assets/images/barber/gallery-6.svg" alt="Curl Define"><div class="ov"><span class="k-brass-t text-uppercase text-size-12 text-bold-700 k-ls">Texture</span><h3 class="k-head text-white text-size-20 text-uppercase mb-0">Curl Define</h3></div></a></div></div></div></section>
+	<section id="pricing" class="bg-v9-dark pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-700 k-brass-t text-uppercase k-ls">Pricing</h6><h1 class="k-head text-white text-size-40 text-uppercase">Pick your package</h1><div class="k-bar mt-s2 mb-s3 mx-auto"></div></div>
+		<div class="row align-items-center">
+			<div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card text-center mt-s2 mb-s2"><div class="p-s3"><h4 class="k-head text-size-24 text-uppercase text-white mb-0">The Gent</h4><h2 class="k-head k-brass-t text-size-50 mb-0">$35</h2><h6 class="text-size-12 text-v6-white">per visit</h6></div><ul class="text-size-14 text-left mb-s2 kb-plan text-white"><li><i class="fa fa-check-circle"></i>Classic haircut</li><li><i class="fa fa-check-circle"></i>Neck shave</li><li><i class="fa fa-check-circle"></i>Hot towel finish</li><li><i class="fa fa-check-circle"></i>Styling product</li></ul><a data-hash data-hash-offset="70" href="#book" class="btn btn-lg bs-solid bw-s2 k-brass-bc k-brass-t k-brass--hover text-dark--hover text-uppercase text-bold-700 text-size-s1 rounded-0 mb-s3">Book now</a></div></div>
+			<div class="col-lg-4 col-md-6 col-sm-12"><div class="k-red text-white text-center mt-s2 mb-s2 pt-s2 pb-s2" style="box-shadow:0 20px 60px rgba(200,49,47,.35)"><div class="p-s3"><span class="d-inline-block k-brass text-dark text-uppercase text-bold-800 text-size-10 pt-2 pb-2 pl-12 pr-12 mb-s1">Best value</span><h4 class="k-head text-size-24 text-uppercase text-white mb-0">The Royal</h4><h2 class="k-head text-white text-size-60 mb-0">$65</h2><h6 class="text-size-12 text-white" style="opacity:.8">per visit</h6></div><ul class="text-size-14 text-left mb-s2 kb-plan" style="color:#fff"><li><i class="fa fa-check-circle"></i>Haircut or skin fade</li><li><i class="fa fa-check-circle"></i>Hot towel shave</li><li><i class="fa fa-check-circle"></i>Beard trim &amp; shape</li><li><i class="fa fa-check-circle"></i>Facial scrub &amp; massage</li><li><i class="fa fa-check-circle"></i>Complimentary drink</li></ul><a data-hash data-hash-offset="70" href="#book" class="btn btn-dark rounded-0 text-uppercase text-bold-700 text-size-s1 pl-s3 pr-s3">Book now</a></div></div>
+			<div class="col-lg-4 col-md-6 col-sm-12"><div class="kb-card text-center mt-s2 mb-s2"><div class="p-s3"><h4 class="k-head text-size-24 text-uppercase text-white mb-0">The Beard</h4><h2 class="k-head k-brass-t text-size-50 mb-0">$28</h2><h6 class="text-size-12 text-v6-white">per visit</h6></div><ul class="text-size-14 text-left mb-s2 kb-plan text-white"><li><i class="fa fa-check-circle"></i>Beard trim &amp; shape</li><li><i class="fa fa-check-circle"></i>Hot towel &amp; oil</li><li><i class="fa fa-check-circle"></i>Moustache styling</li><li><i class="fa fa-check-circle"></i>Line-up with razor</li></ul><a data-hash data-hash-offset="70" href="#book" class="btn btn-lg bs-solid bw-s2 k-brass-bc k-brass-t k-brass--hover text-dark--hover text-uppercase text-bold-700 text-size-s1 rounded-0 mb-s3">Book now</a></div></div>
+		</div>
+		<p class="text-center text-v6-white text-size-s1 mt-s2 mb-0">Kids under 12: $18 &middot; Seniors: 10% off on weekdays &middot; Gift cards available in store.</p>
+	</div></section>
+	<div class="k-pole-band"></div><section id="barbers" class="bg-dark pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-700 k-brass-t text-uppercase k-ls">The crew</h6><h1 class="k-head text-white text-size-40 text-uppercase">Meet your barbers</h1><div class="k-bar mt-s2 mb-s3 mx-auto"></div></div><div class="row"><div class="col-lg-3 col-md-6 col-sm-6"><div class="kb-bs mt-s2 mb-s2"><img src="assets/images/barber/barber-1.svg" alt="Marco Bellini"><div class="p-s2 text-center"><h3 class="k-head text-white text-size-20 text-uppercase mb-5">Marco Bellini</h3><span class="k-brass-t text-size-12 text-bold-700 text-uppercase" style="letter-spacing:2px">Master barber</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="kb-bs mt-s2 mb-s2"><img src="assets/images/barber/barber-2.svg" alt="Darius Cole"><div class="p-s2 text-center"><h3 class="k-head text-white text-size-20 text-uppercase mb-5">Darius Cole</h3><span class="k-brass-t text-size-12 text-bold-700 text-uppercase" style="letter-spacing:2px">Fade specialist</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="kb-bs mt-s2 mb-s2"><img src="assets/images/barber/barber-3.svg" alt="Liam Connor"><div class="p-s2 text-center"><h3 class="k-head text-white text-size-20 text-uppercase mb-5">Liam Connor</h3><span class="k-brass-t text-size-12 text-bold-700 text-uppercase" style="letter-spacing:2px">Beard artist</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="kb-bs mt-s2 mb-s2"><img src="assets/images/barber/barber-4.svg" alt="Tony Vega"><div class="p-s2 text-center"><h3 class="k-head text-white text-size-20 text-uppercase mb-5">Tony Vega</h3><span class="k-brass-t text-size-12 text-bold-700 text-uppercase" style="letter-spacing:2px">Senior barber</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li></ul></div></div></div></div></div></section>
+	<section id="reviews" class="bg-v9-dark pt-s5 pb-s5"><div class="container"><div class="text-center"><h6 class="text-bold-700 k-brass-t text-uppercase k-ls">Reviews</h6><h1 class="k-head text-white text-size-40 text-uppercase">What the lads say</h1><div class="k-bar mt-s2 mb-s3 mx-auto"></div></div>
+		<div class="row justify-content-center"><div class="col-lg-8 col-md-10 col-sm-12"><div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 30, 'loop': true, 'autoplay': true, 'autoplayTimeout': 6500, 'nav': false, 'dots': true}"><div class="text-center px-s2"><div class="k-brass-t text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="text-white text-size-20 text-bold-300 mb-s3">&ldquo;Best barbers in the city, hands down. Always on time, always a great cut, and the hot towel shave is next level.&rdquo;</p><img src="assets/images/barber/client-1.svg" alt="Jake T." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="text-white text-bold-700 text-size-14 mt-s1 mb-0">Jake T.</h5><span class="k-brass-t text-size-12 text-uppercase text-bold-700">Regular, 5 years</span></div><div class="text-center px-s2"><div class="k-brass-t text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="text-white text-size-20 text-bold-300 mb-s3">&ldquo;Darius gave me the cleanest fade I have ever had. The shop has a great vibe and the guys treat you like a friend.&rdquo;</p><img src="assets/images/barber/client-2.svg" alt="Andre M." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="text-white text-bold-700 text-size-14 mt-s1 mb-0">Andre M.</h5><span class="k-brass-t text-size-12 text-uppercase text-bold-700">Skin fade</span></div><div class="text-center px-s2"><div class="k-brass-t text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="text-white text-size-20 text-bold-300 mb-s3">&ldquo;Treated myself to the Royal package for my birthday. Haircut, shave, massage, a whisky. Felt like a new man!&rdquo;</p><img src="assets/images/barber/client-3.svg" alt="Henry W." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="text-white text-bold-700 text-size-14 mt-s1 mb-0">Henry W.</h5><span class="k-brass-t text-size-12 text-uppercase text-bold-700">Royal package</span></div></div></div></div>
+	</div></section>
+	<section id="book" class="pt-s5 pb-s5 overlay-wrap" data-plugin-parallax data-plugin-options="{'speed': 1.4}" data-image-src="assets/images/bg/bg-3.jpg">
+		<div class="container overlay-container"><div class="row">
+			<div class="col-lg-5 col-md-12 mb-s3">
+				<h6 class="k-brass-t text-uppercase k-ls text-bold-700">Book a chair</h6>
+				<h1 class="k-head text-white text-size-44 text-uppercase">Look sharp. Feel sharper.</h1>
+				<ul class="kb-hours text-white mt-s3 mb-0"><li><span>Monday - Friday</span><strong>9:00 am - 8:00 pm</strong></li><li><span>Saturday</span><strong>9:00 am - 6:00 pm</strong></li><li><span>Sunday</span><strong class="k-brass-t">10:00 am - 4:00 pm</strong></li></ul>
+				<p class="text-white mt-s2" style="opacity:.85">Walk-ins are welcome, but booking guarantees your barber and time.</p>
+			</div>
+			<div class="col-lg-7 col-md-12"><form class="bg-dark p-s4" style="border-top:5px solid #c8312f" action="#" onsubmit="return false;">
+				<h3 class="k-head text-white text-size-26 text-uppercase mb-s2">Request an appointment</h3>
+				<div class="form-row"><div class="form-group col-md-6"><input type="text" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in" placeholder="Full name"></div><div class="form-group col-md-6"><input type="tel" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in" placeholder="Phone number"></div></div>
+				<div class="form-row"><div class="form-group col-md-6"><select class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in"><option>Select service</option><option>Classic haircut</option><option>Hot towel shave</option><option>Beard trim & shape</option><option>Skin fade</option><option>Moustache styling</option><option>Royal treatment</option></select></div><div class="form-group col-md-6"><select class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in"><option>Preferred barber</option><option>No preference</option><option>Marco Bellini</option><option>Darius Cole</option><option>Liam Connor</option><option>Tony Vega</option></select></div></div>
+				<div class="form-row"><div class="form-group col-md-6"><input type="date" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in"></div><div class="form-group col-md-6"><select class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in"><option>Preferred time</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div></div>
+				<div class="form-group"><textarea class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white k-in" rows="3" placeholder="Anything we should know?"></textarea></div>
+				<button type="submit" class="btn btn-lg k-red text-white k-brass--hover text-dark--hover text-uppercase text-bold-700 text-size-s1 rounded-0 hover-icon-wobble-horizontal btn-block">Book my chair</button>
+			</form></div>
+		</div></div>
+		<div class="overlay bg-v9-dark" style="opacity:.9"></div>
+	</section>
+	<footer class="bg-v9-dark pt-s5 pb-s3">
+		<div class="container"><div class="row">
+			<div class="col-lg-4 col-md-12"><div class="mt-s2 mb-s2"><a href="index-barber.html"><img class="mb-s3" src="assets/images/barber/logo-light.svg" alt="Iron and Oak Barber Shop" style="max-height:52px;width:auto"></a><p class="text-v6-white">Traditional barbering with a modern edge. Cuts, shaves and beard care in the heart of the city.</p><ul class="social list-inline text-size-s1 mt-s3"><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark rounded-circle" href="#"><i class="fab fa-youtube"></i></a></li></ul></div></div>
+			<div class="col-lg-2 col-md-4 col-sm-6"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1 k-head">Explore</h5><hr class="w--40 bs-solid k-brass-bc bw-s3 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul><li class="mb-s1"><i class="icon-arrow-right k-brass-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#services" data-hash data-hash-offset="70">Services</a></li><li class="mb-s1"><i class="icon-arrow-right k-brass-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#gallery" data-hash data-hash-offset="70">Lookbook</a></li><li class="mb-s1"><i class="icon-arrow-right k-brass-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#pricing" data-hash data-hash-offset="70">Pricing</a></li><li class="mb-s1"><i class="icon-arrow-right k-brass-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#barbers" data-hash data-hash-offset="70">The crew</a></li><li class="mb-s1"><i class="icon-arrow-right k-brass-t text-size-8 mr-s1"></i> <a class="text-v6-white" href="#book" data-hash data-hash-offset="70">Book online</a></li></ul></div></div>
+			<div class="col-lg-3 col-md-4 col-sm-6"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1 k-head">Opening hours</h5><hr class="w--40 bs-solid k-brass-bc bw-s3 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul class="text-v6-white"><li class="mb-s1">Mon - Fri: <span class="text-white text-bold-600">9am - 8pm</span></li><li class="mb-s1">Saturday: <span class="text-white text-bold-600">9am - 6pm</span></li><li class="mb-s1">Sunday: <span class="k-brass-t text-bold-600">10am - 4pm</span></li></ul></div></div>
+			<div class="col-lg-3 col-md-4 col-sm-12"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1 k-head">Find us</h5><hr class="w--40 bs-solid k-brass-bc bw-s3 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul class="text-v6-white"><li class="mb-s2 d-flex"><i class="fa fa-map-marker k-brass-t text-size-18 mr-s2"></i><span>310 Oak Street<br>San Francisco, CA 94102</span></li><li class="mb-s2 d-flex"><i class="fa fa-phone k-brass-t text-size-18 mr-s2"></i><span>(123) 456-7890</span></li><li class="d-flex"><i class="fa fa-envelope k-brass-t text-size-18 mr-s2"></i><a class="text-v6-white" href="mailto:cuts@ironandoak.example">cuts@ironandoak.example</a></li></ul></div></div>
+		</div></div>
+	</footer>
+	<div class="k-pole-band"></div>
+	<footer class="bg-dark pt-s2 pb-s2"><div class="container"><p class="m-0 text-v6-white text-size-s1 text-center">&copy; Copyright 2026 <a href="#" class="text-white text-bold-700">Iron &amp; Oak Barber Shop</a>. All rights reserved. Demo content only.</p></div></footer>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/vendors/appear/jquery.appear.min.js"></script>
+	<script src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/vendors/common/common.min.js"></script>
+
+	<!-- FANCY-BOX -->
+	<script src="assets/vendors/fancybox/jquery.fancybox.min.js"></script>
+
+	<!-- MENU -->
+	<script src="assets/vendors/menu/src/main.menu.js"></script>
+
+	<!-- CAROUSEL -->
+	<script src="assets/vendors/owl.carousel/owl.carousel.min.js"></script>
+
+	<!-- ANIMATED-HEADLINES -->
+	<script src="assets/vendors/animated-headline/js/animated-headline.js"></script>
+
+	<!-- VIDEO-BACKGROUND -->
+	<script src="assets/vendors/vide/vide.min.js"></script>
+
+	<!-- COUNDOWN -->
+	<script src="assets/vendors/countdown/jquery.countdown.min.js"></script>
+
+	<!-- ELEVATEZOOM-MASTER -->
+	<script src="assets/vendors/elevatezoom-master/jquery.elevatezoom.js"></script>
+
+
+
+	<!-- MAP (required by custom.js) -->
+	<script src="assets/vendors/gmap/jquery.gmap.min.js"></script>
+
+	<!-- THEME-CUSTOM -->
+	<script src="assets/js/main.js"></script>
+
+	<!-- THEME-INITIALIZATION-FILES -->
+	<script src="assets/js/theme.init.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>
