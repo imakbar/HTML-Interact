@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gym &amp; Fitness Home | Interact Responsive Template</title>
+
+	<link rel="shortcut icon" href="assets/images/logo/favicon.png">
+	<link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="assets/vendors/menu/src/main.menu.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors-gh.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/colors-g.css">
+
+	<!-- CAROUSEL -->
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.theme.default.min.css">
+
+	<!-- ANIMATE -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animate/animate.css">
+
+	<!-- ANIMATED HEADLINES -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animated-headline/css/style.css">
+
+	<!-- FANCY BOX -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/jquery.fancybox.min.css">
+
+
+	<style>
+	:root{--g:#c6f432}
+	.g-bg{background:var(--g)!important} .g-bg--hover:hover{background:var(--g)!important}
+	.g-text{color:var(--g)} .g-text--hover:hover{color:var(--g)!important}
+	.g-bc{border-color:var(--g)!important} .g-bc--hover:hover{border-color:var(--g)!important}
+	.g-ls{letter-spacing:3px}
+	.gym-header{background:#0d0f12!important}
+	.gym-header .main-menu ul li > a{color:#fff}
+	.gym-header .main-menu ul li:hover > a,.gym-header .main-menu ul li.current-menu > a{color:var(--g)}
+	.gym-header .line-menu{background:#fff}
+	@media (max-width:1199px){.gym-header .main-menu{background:#0d0f12}}
+	.gym-hero{background:radial-gradient(circle at 78% 40%,rgba(198,244,50,.16),transparent 55%),#0d0f12;position:relative;overflow:hidden}
+	.gym-hero:before{content:"";position:absolute;right:-8%;top:-20%;width:46%;height:140%;background:rgba(255,255,255,.03);transform:skewX(-14deg)}
+	.gym-hero-title{font-size:78px;line-height:1;letter-spacing:-1px;text-transform:uppercase}
+	.gym-hero-title .outline{color:transparent;-webkit-text-stroke:2px var(--g)}
+	@media (max-width:991px){.gym-hero-title{font-size:56px}}
+	@media (max-width:575px){.gym-hero-title{font-size:40px}}
+	@media (max-width:575px){.gym-hero .btn{display:block;margin:0 0 12px!important}}
+	.gym-chip{border-left:4px solid var(--g);padding-left:14px}
+	.gym-marquee{overflow:hidden;white-space:nowrap}
+	.gym-marquee span{display:inline-block;padding-left:100%;animation:gymscroll 26s linear infinite}
+	@keyframes gymscroll{to{transform:translateX(-100%)}}
+	.gym-card{position:relative;overflow:hidden;background:#0d0f12}
+	.gym-card img{width:100%;height:300px;object-fit:cover;display:block;transition:transform .5s}
+	.gym-card:hover img{transform:scale(1.08)}
+	.gym-card .cap{position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(transparent,rgba(0,0,0,.92))}
+	.gym-pills .nav-link{color:#fff;border-radius:0;text-transform:uppercase;font-weight:800;font-size:13px;padding:12px 22px;border:1px solid rgba(255,255,255,.25);margin:0 4px 8px 0}
+	.gym-pills .nav-link.active{background:var(--g);color:#0d0f12;border-color:var(--g)}
+	.gym-table td{padding:18px 16px;border-top:1px dashed rgba(255,255,255,.18);vertical-align:middle}
+	.gym-plan{padding:0 28px!important;list-style:none}
+	.gym-plan.on-lime li i{color:#0d0f12}
+	.gym-plan li{padding:10px 0;border-top:1px dashed rgba(255,255,255,.15)}
+	.gym-plan li i{color:var(--g);margin-right:10px}
+	select.form-control{height:auto;min-height:52px;line-height:1.4}
+	select.form-control option{color:#000}
+	.gym-input::placeholder{color:#9aa0a6}
+</style>
+</head>
+<body class="one-page" data-target="#header" data-spy="scroll" data-offset="100" style="background:#0d0f12">
+
+	<div class="g-bg text-dark text-size-12 pt-8 pb-8 d-none d-md-block">
+		<div class="container d-flex align-items-center flex-wrap text-bold-700">
+			<span class="mr-s3"><i class="fa fa-phone mr-5"></i> (123) 456-7890</span>
+			<span class="mr-s3"><i class="fa fa-map-marker mr-5"></i> 220 Mission Street, San Francisco</span>
+			<span class="ml-auto text-uppercase">Open 24/7 for members &mdash; <a data-hash data-hash-offset="70" href="#join" class="text-dark text-underline">Claim your free week</a></span>
+		</div>
+	</div>
+	<div id="header" class="main-header header-shadow gym-header">
+		<div class="container"><div class="main-header-container">
+			<div class="logo" data-mobile-logo="assets/images/gym/logo-light.svg" data-sticky-logo="assets/images/gym/logo-light.svg"><a href="index-gym.html"><img src="assets/images/gym/logo-light.svg" alt="ForgeFit Strength Club" style="max-height:50px;width:auto"/></a></div>
+			<div class="burger-menu"><div class="line-menu line-half first-line"></div><div class="line-menu"></div><div class="line-menu line-half last-line"></div></div>
+			<nav class="main-menu menu-caret submenu-top-border submenu-scale"><ul id="mainNav"><li><a data-hash data-hash-offset="70" href="#home">Home</a></li><li><a data-hash data-hash-offset="70" href="#about">Why Us</a></li><li><a data-hash data-hash-offset="70" href="#classes">Classes</a></li><li><a data-hash data-hash-offset="70" href="#trainers">Trainers</a></li><li><a data-hash data-hash-offset="70" href="#schedule">Schedule</a></li><li><a data-hash data-hash-offset="70" href="#pricing">Pricing</a></li><li><a data-hash data-hash-offset="70" href="#join" class="g-bg text-dark text-bold-800">Join Now</a></li></ul></nav>
+		</div></div>
+	</div>
+	<section id="home" class="gym-hero">
+		<div class="container pt-s5 pb-s5" style="position:relative">
+			<div class="row align-items-center pt-s3 pb-s3">
+				<div class="col-lg-7 col-md-12">
+					<span class="d-inline-block bs-solid g-bc bw-s1 pt-4 pb-4 pl-s2 pr-s2 g-text text-uppercase text-bold-700 text-size-12 mb-s2"><i class="fa fa-bolt mr-s1"></i> Premium gym &amp; personal training</span>
+					<h1 class="text-white text-bold-900 gym-hero-title mb-s3">Forge a <span class="outline">stronger</span> you.</h1>
+					<p class="text-white text-size-18 text-bold-300 mb-s4" style="max-width:560px">Elite coaching, 24/7 access and a community that pushes you further. Whether you're lifting your first barbell or chasing a personal best, your best shape starts here.</p>
+					<a data-hash data-hash-offset="70" href="#join" class="btn btn-lg g-bg text-dark bg-white--hover text-uppercase text-bold-800 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal">Start free week <i class="fa fa-arrow-right ml-s1"></i></a>
+					<a data-hash data-hash-offset="70" href="#classes" class="btn btn-lg bs-solid bw-s2 bc-v3-white text-white g-bg--hover text-dark--hover g-bc--hover text-uppercase text-bold-800 text-size-s1 rounded-0 ml-s1">Explore classes</a>
+					<div class="row mt-s5">
+						<div class="col-4"><div class="gym-chip"><h3 class="text-white text-bold-800 text-size-30 mb-0">12k+</h3><span class="text-v6-white text-size-12 text-uppercase">Active members</span></div></div>
+						<div class="col-4"><div class="gym-chip"><h3 class="text-white text-bold-800 text-size-30 mb-0">40+</h3><span class="text-v6-white text-size-12 text-uppercase">Weekly classes</span></div></div>
+						<div class="col-4"><div class="gym-chip"><h3 class="text-white text-bold-800 text-size-30 mb-0">25</h3><span class="text-v6-white text-size-12 text-uppercase">Pro coaches</span></div></div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-12 text-center mt-s3"><img src="assets/images/gym/hero.svg" alt="Barbell, kettlebell and dumbbell" class="img-fluid" style="max-width:520px;width:100%"></div>
+			</div>
+		</div>
+	</section>
+	<div class="g-bg text-dark gym-marquee pt-s1 pb-s1"><span class="text-uppercase text-bold-900 text-size-18">Lift heavy &nbsp;&bull;&nbsp; Train smart &nbsp;&bull;&nbsp; Recover well &nbsp;&bull;&nbsp; Repeat daily &nbsp;&bull;&nbsp; No excuses &nbsp;&bull;&nbsp; Lift heavy &nbsp;&bull;&nbsp; Train smart &nbsp;&bull;&nbsp; Recover well &nbsp;&bull;&nbsp; Repeat daily &nbsp;&bull;&nbsp; No excuses</span></div>
+	<section id="about" class="bg-dark pt-s5 pb-s5">
+		<div class="container">
+			<div class="text-center"><h6 class="text-bold-700 g-text text-uppercase g-ls">Why ForgeFit</h6><h1 class="text-bold-800 text-white text-size-40 text-uppercase">Built for people who train</h1><div class="mt-s2 mb-s3"><hr class="w--60 bs-solid g-bc bw-s5 bt-0 bl-0 br-0 mt-0"></div></div>
+			<div class="row"><div class="col-lg-3 col-md-6 col-sm-12"><div class="mt-s2 mb-s2 p-s3 bg-v9-dark bs-solid g-bc bw-s3 bb-0 bl-0 br-0 h-100"><span class="d-inline-flex align-items-center justify-content-center g-bg text-dark text-size-24 h--70 w--70 mb-s2"><i class="icon-clock"></i></span><h2 class="text-size-18 text-bold-800 text-white text-uppercase mb-s1">Open 24/7</h2><p class="mb-0 text-v6-white">Train on your schedule with secure keycard access any hour, any day.</p></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="mt-s2 mb-s2 p-s3 bg-v9-dark bs-solid g-bc bw-s3 bb-0 bl-0 br-0 h-100"><span class="d-inline-flex align-items-center justify-content-center g-bg text-dark text-size-24 h--70 w--70 mb-s2"><i class="fa fa-users"></i></span><h2 class="text-size-18 text-bold-800 text-white text-uppercase mb-s1">Expert coaches</h2><p class="mb-0 text-v6-white">Certified trainers build programs around your goals and your body.</p></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="mt-s2 mb-s2 p-s3 bg-v9-dark bs-solid g-bc bw-s3 bb-0 bl-0 br-0 h-100"><span class="d-inline-flex align-items-center justify-content-center g-bg text-dark text-size-24 h--70 w--70 mb-s2"><i class="fa fa-bolt"></i></span><h2 class="text-size-18 text-bold-800 text-white text-uppercase mb-s1">Pro equipment</h2><p class="mb-0 text-v6-white">Racks, free weights and cardio machines refreshed every year.</p></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="mt-s2 mb-s2 p-s3 bg-v9-dark bs-solid g-bc bw-s3 bb-0 bl-0 br-0 h-100"><span class="d-inline-flex align-items-center justify-content-center g-bg text-dark text-size-24 h--70 w--70 mb-s2"><i class="icon-heart"></i></span><h2 class="text-size-18 text-bold-800 text-white text-uppercase mb-s1">Recovery zone</h2><p class="mb-0 text-v6-white">Sauna, stretching studio and foam-rolling area to recover faster.</p></div></div></div>
+		</div>
+	</section>
+	<section id="classes" class="bg-v9-dark pt-s5 pb-s5">
+		<div class="container">
+			<div class="text-center"><h6 class="text-bold-700 g-text text-uppercase g-ls">Group classes</h6><h1 class="text-bold-800 text-white text-size-40 text-uppercase">Find your training style</h1><div class="mt-s2 mb-s3"><hr class="w--60 bs-solid g-bc bw-s5 bt-0 bl-0 br-0 mt-0"></div></div>
+			<div class="row"><div class="col-lg-4 col-md-6 col-sm-12"><div class="gym-card mt-s2 mb-s2"><img src="assets/images/gym/class-strength.svg" alt="Strength &amp; Power"><div class="cap"><h3 class="text-white text-bold-800 text-uppercase text-size-20 mb-5">Strength &amp; Power</h3><span class="g-text text-bold-700 text-size-12 text-uppercase">Mon / Wed / Fri</span><span class="text-v6-white text-size-12"> &nbsp;|&nbsp; Intermediate</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="gym-card mt-s2 mb-s2"><img src="assets/images/gym/class-hiit.svg" alt="HIIT Burn"><div class="cap"><h3 class="text-white text-bold-800 text-uppercase text-size-20 mb-5">HIIT Burn</h3><span class="g-text text-bold-700 text-size-12 text-uppercase">Tue / Thu</span><span class="text-v6-white text-size-12"> &nbsp;|&nbsp; All levels</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="gym-card mt-s2 mb-s2"><img src="assets/images/gym/class-yoga.svg" alt="Flow Yoga"><div class="cap"><h3 class="text-white text-bold-800 text-uppercase text-size-20 mb-5">Flow Yoga</h3><span class="g-text text-bold-700 text-size-12 text-uppercase">Daily</span><span class="text-v6-white text-size-12"> &nbsp;|&nbsp; Beginner</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="gym-card mt-s2 mb-s2"><img src="assets/images/gym/class-boxing.svg" alt="Boxing Fit"><div class="cap"><h3 class="text-white text-bold-800 text-uppercase text-size-20 mb-5">Boxing Fit</h3><span class="g-text text-bold-700 text-size-12 text-uppercase">Mon / Thu</span><span class="text-v6-white text-size-12"> &nbsp;|&nbsp; All levels</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="gym-card mt-s2 mb-s2"><img src="assets/images/gym/class-cycling.svg" alt="Spin Cycle"><div class="cap"><h3 class="text-white text-bold-800 text-uppercase text-size-20 mb-5">Spin Cycle</h3><span class="g-text text-bold-700 text-size-12 text-uppercase">Tue / Sat</span><span class="text-v6-white text-size-12"> &nbsp;|&nbsp; All levels</span></div></div></div><div class="col-lg-4 col-md-6 col-sm-12"><div class="gym-card mt-s2 mb-s2"><img src="assets/images/gym/class-crossfit.svg" alt="Functional Cross"><div class="cap"><h3 class="text-white text-bold-800 text-uppercase text-size-20 mb-5">Functional Cross</h3><span class="g-text text-bold-700 text-size-12 text-uppercase">Wed / Sat</span><span class="text-v6-white text-size-12"> &nbsp;|&nbsp; Advanced</span></div></div></div></div>
+		</div>
+	</section>
+	<section class="pt-s5 pb-s5 overlay-wrap" data-plugin-parallax data-plugin-options="{'speed': 1.4}" data-image-src="assets/images/bg/bg-3.jpg">
+		<div class="container overlay-container"><div class="counters row"><div class="col-lg-3 col-md-6 col-sm-6"><div class="counter mt-s2 mb-s2 text-center"><div class="text-size-s3 g-text"><i class="fa fa-users"></i></div><div class="text-size-s3 text-bold-800 text-white"><span data-to="12000" data-append="+">0</span></div><label class="text-white text-uppercase text-size-12">Active members</label></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="counter mt-s2 mb-s2 text-center"><div class="text-size-s3 g-text"><i class="fa fa-trophy"></i></div><div class="text-size-s3 text-bold-800 text-white"><span data-to="25">0</span></div><label class="text-white text-uppercase text-size-12">Pro coaches</label></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="counter mt-s2 mb-s2 text-center"><div class="text-size-s3 g-text"><i class="fa fa-bolt"></i></div><div class="text-size-s3 text-bold-800 text-white"><span data-to="40" data-append="+">0</span></div><label class="text-white text-uppercase text-size-12">Weekly classes</label></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="counter mt-s2 mb-s2 text-center"><div class="text-size-s3 g-text"><i class="fa fa-star"></i></div><div class="text-size-s3 text-bold-800 text-white"><span data-to="15">0</span></div><label class="text-white text-uppercase text-size-12">Years strong</label></div></div></div></div>
+		<div class="overlay bg-v9-dark"></div>
+	</section>
+	<section id="trainers" class="bg-dark pt-s5 pb-s5">
+		<div class="container">
+			<div class="text-center"><h6 class="text-bold-700 g-text text-uppercase g-ls">Our coaches</h6><h1 class="text-bold-800 text-white text-size-40 text-uppercase">Train with the best</h1><div class="mt-s2 mb-s3"><hr class="w--60 bs-solid g-bc bw-s5 bt-0 bl-0 br-0 mt-0"></div></div>
+			<div class="row"><div class="col-lg-3 col-md-6 col-sm-6"><div class="mt-s2 mb-s2 bg-v9-dark overflow-hidden animate-parent--hover"><img src="assets/images/gym/trainer-1.svg" alt="Jake Morrison" class="w-100 d-block"><div class="p-s2 text-center"><h3 class="text-white text-bold-800 text-size-18 text-uppercase mb-5">Jake Morrison</h3><span class="g-text text-size-12 text-bold-700 text-uppercase">Head strength coach</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"><a class="text-white g-text--hover" href="#"><i class="fab fa-facebook-f"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="mt-s2 mb-s2 bg-v9-dark overflow-hidden animate-parent--hover"><img src="assets/images/gym/trainer-2.svg" alt="Marcus Reed" class="w-100 d-block"><div class="p-s2 text-center"><h3 class="text-white text-bold-800 text-size-18 text-uppercase mb-5">Marcus Reed</h3><span class="g-text text-size-12 text-bold-700 text-uppercase">Boxing &amp; conditioning</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"><a class="text-white g-text--hover" href="#"><i class="fab fa-facebook-f"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="mt-s2 mb-s2 bg-v9-dark overflow-hidden animate-parent--hover"><img src="assets/images/gym/trainer-3.svg" alt="Elena Novak" class="w-100 d-block"><div class="p-s2 text-center"><h3 class="text-white text-bold-800 text-size-18 text-uppercase mb-5">Elena Novak</h3><span class="g-text text-size-12 text-bold-700 text-uppercase">HIIT &amp; mobility</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"><a class="text-white g-text--hover" href="#"><i class="fab fa-facebook-f"></i></a></li></ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-6"><div class="mt-s2 mb-s2 bg-v9-dark overflow-hidden animate-parent--hover"><img src="assets/images/gym/trainer-4.svg" alt="Priya Shah" class="w-100 d-block"><div class="p-s2 text-center"><h3 class="text-white text-bold-800 text-size-18 text-uppercase mb-5">Priya Shah</h3><span class="g-text text-size-12 text-bold-700 text-uppercase">Yoga &amp; recovery</span><ul class="list-inline mt-s1 mb-0 text-size-s1"><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="text-white g-text--hover" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"><a class="text-white g-text--hover" href="#"><i class="fab fa-facebook-f"></i></a></li></ul></div></div></div></div>
+		</div>
+	</section>
+	<section id="schedule" class="bg-v9-dark pt-s5 pb-s5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12">
+					<div class=""><h6 class="text-bold-700 g-text text-uppercase g-ls">Weekly timetable</h6><h1 class="text-bold-800 text-white text-size-40 text-uppercase">Class schedule</h1><div class="mt-s2 mb-s3"><hr class="w--60 bs-solid g-bc bw-s5 bt-0 bl-0 br-0 mt-0 ml-0"></div></div>
+					<ul class="nav gym-pills mb-s2"><li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#day-Mon">Mon</a></li><li class="nav-item"><a class="nav-link" data-toggle="pill" href="#day-Tue">Tue</a></li><li class="nav-item"><a class="nav-link" data-toggle="pill" href="#day-Wed">Wed</a></li><li class="nav-item"><a class="nav-link" data-toggle="pill" href="#day-Thu">Thu</a></li><li class="nav-item"><a class="nav-link" data-toggle="pill" href="#day-Fri">Fri</a></li><li class="nav-item"><a class="nav-link" data-toggle="pill" href="#day-Sat">Sat</a></li></ul>
+					<div class="tab-content"><div class="tab-pane fade show active" id="day-Mon"><table class="table gym-table mb-0 text-white" style="color:#fff"><tbody><tr><td class="g-text text-bold-800" style="width:25%">06:00</td><td class="text-white text-bold-700 text-uppercase">Strength &amp; Power</td><td class="text-v6-white d-none d-sm-table-cell">Jake M.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">09:00</td><td class="text-white text-bold-700 text-uppercase">Flow Yoga</td><td class="text-v6-white d-none d-sm-table-cell">Priya S.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">12:30</td><td class="text-white text-bold-700 text-uppercase">Boxing Fit</td><td class="text-v6-white d-none d-sm-table-cell">Marcus R.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">18:30</td><td class="text-white text-bold-700 text-uppercase">HIIT Burn</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr></tbody></table></div><div class="tab-pane fade" id="day-Tue"><table class="table gym-table mb-0 text-white" style="color:#fff"><tbody><tr><td class="g-text text-bold-800" style="width:25%">06:30</td><td class="text-white text-bold-700 text-uppercase">Spin Cycle</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">09:00</td><td class="text-white text-bold-700 text-uppercase">Flow Yoga</td><td class="text-v6-white d-none d-sm-table-cell">Priya S.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">17:30</td><td class="text-white text-bold-700 text-uppercase">HIIT Burn</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">19:00</td><td class="text-white text-bold-700 text-uppercase">Functional Cross</td><td class="text-v6-white d-none d-sm-table-cell">Jake M.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr></tbody></table></div><div class="tab-pane fade" id="day-Wed"><table class="table gym-table mb-0 text-white" style="color:#fff"><tbody><tr><td class="g-text text-bold-800" style="width:25%">06:00</td><td class="text-white text-bold-700 text-uppercase">Strength &amp; Power</td><td class="text-v6-white d-none d-sm-table-cell">Jake M.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">12:00</td><td class="text-white text-bold-700 text-uppercase">Flow Yoga</td><td class="text-v6-white d-none d-sm-table-cell">Priya S.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">18:00</td><td class="text-white text-bold-700 text-uppercase">Functional Cross</td><td class="text-v6-white d-none d-sm-table-cell">Jake M.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">19:30</td><td class="text-white text-bold-700 text-uppercase">Spin Cycle</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr></tbody></table></div><div class="tab-pane fade" id="day-Thu"><table class="table gym-table mb-0 text-white" style="color:#fff"><tbody><tr><td class="g-text text-bold-800" style="width:25%">06:30</td><td class="text-white text-bold-700 text-uppercase">HIIT Burn</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">12:30</td><td class="text-white text-bold-700 text-uppercase">Boxing Fit</td><td class="text-v6-white d-none d-sm-table-cell">Marcus R.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">17:30</td><td class="text-white text-bold-700 text-uppercase">Flow Yoga</td><td class="text-v6-white d-none d-sm-table-cell">Priya S.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">19:00</td><td class="text-white text-bold-700 text-uppercase">Spin Cycle</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr></tbody></table></div><div class="tab-pane fade" id="day-Fri"><table class="table gym-table mb-0 text-white" style="color:#fff"><tbody><tr><td class="g-text text-bold-800" style="width:25%">06:00</td><td class="text-white text-bold-700 text-uppercase">Strength &amp; Power</td><td class="text-v6-white d-none d-sm-table-cell">Jake M.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">09:00</td><td class="text-white text-bold-700 text-uppercase">Flow Yoga</td><td class="text-v6-white d-none d-sm-table-cell">Priya S.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">17:00</td><td class="text-white text-bold-700 text-uppercase">HIIT Burn</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">18:30</td><td class="text-white text-bold-700 text-uppercase">Boxing Fit</td><td class="text-v6-white d-none d-sm-table-cell">Marcus R.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr></tbody></table></div><div class="tab-pane fade" id="day-Sat"><table class="table gym-table mb-0 text-white" style="color:#fff"><tbody><tr><td class="g-text text-bold-800" style="width:25%">08:00</td><td class="text-white text-bold-700 text-uppercase">Spin Cycle</td><td class="text-v6-white d-none d-sm-table-cell">Elena N.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">09:30</td><td class="text-white text-bold-700 text-uppercase">Functional Cross</td><td class="text-v6-white d-none d-sm-table-cell">Jake M.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">11:00</td><td class="text-white text-bold-700 text-uppercase">Flow Yoga</td><td class="text-v6-white d-none d-sm-table-cell">Priya S.</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr><tr><td class="g-text text-bold-800" style="width:25%">12:30</td><td class="text-white text-bold-700 text-uppercase">Open Gym Challenge</td><td class="text-v6-white d-none d-sm-table-cell">All coaches</td><td class="text-right"><a class="g-text text-bold-800 text-uppercase text-size-12" data-hash data-hash-offset="70" href="#join">Book <i class="fa fa-arrow-right"></i></a></td></tr></tbody></table></div></div>
+				</div>
+				<div class="col-lg-4 col-md-12 mt-s3">
+					<div class="bg-dark p-s3 bs-solid g-bc bw-s5 bb-0 bl-0 br-0">
+						<h3 class="text-white text-bold-800 text-uppercase text-size-24 mb-s1">BMI calculator</h3>
+						<p class="text-v6-white text-size-s1">Check where you are today &mdash; then let us build the plan.</p>
+						<div class="form-group"><input id="bmi-h" type="number" min="100" max="230" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white gym-input" placeholder="Height (cm)"></div>
+						<div class="form-group"><input id="bmi-w" type="number" min="30" max="250" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white gym-input" placeholder="Weight (kg)"></div>
+						<button id="bmi-go" type="button" class="btn btn-lg g-bg text-dark bg-white--hover text-uppercase text-bold-800 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal btn-block">Calculate</button>
+						<div id="bmi-out" class="mt-s2 text-center" style="min-height:70px"><span class="text-v6-white text-size-s1">Enter your details above.</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pricing" class="bg-dark pt-s5 pb-s5">
+		<div class="container">
+			<div class="text-center"><h6 class="text-bold-700 g-text text-uppercase g-ls">Membership</h6><h1 class="text-bold-800 text-white text-size-40 text-uppercase">Pick your plan</h1><div class="mt-s2 mb-s3"><hr class="w--60 bs-solid g-bc bw-s5 bt-0 bl-0 br-0 mt-0"></div></div>
+			<div class="row align-items-center">
+				<div class="col-lg-4 col-md-6 col-sm-12"><div class="bg-v9-dark text-center text-white mt-s2 mb-s2 bs-solid bw-s1 bc-v3-white"><div class="p-s3"><h4 class="text-size-20 text-uppercase text-bold-900 mb-0">Starter</h4><h2 class="g-text text-size-50 text-bold-900 mb-0">$29</h2><h6 class="text-size-12 text-v6-white">per month</h6></div><ul class="text-size-14 text-left px-s3 mb-s2 gym-plan"><li><i class="fa fa-check-circle"></i>Gym floor access</li><li><i class="fa fa-check-circle"></i>Locker room &amp; showers</li><li><i class="fa fa-check-circle"></i>2 group classes / week</li><li><i class="fa fa-check-circle"></i>Free fitness assessment</li></ul><a data-hash data-hash-offset="70" href="#join" class="btn bs-solid bw-s2 bc-v3-white text-white g-bg--hover text-dark--hover g-bc--hover text-uppercase text-bold-800 text-size-s1 rounded-0 text-size-s1 mb-s3">Choose plan</a></div></div>
+				<div class="col-lg-4 col-md-6 col-sm-12"><div class="g-bg text-dark text-center mt-s2 mb-s2 pt-s2 pb-s2" style="box-shadow:0 20px 50px rgba(198,244,50,.25)"><div class="p-s3"><span class="d-inline-block bg-dark text-white text-uppercase text-bold-800 text-size-10 pt-2 pb-2 pl-12 pr-12 mb-s1">Most popular</span><h4 class="text-size-20 text-uppercase text-bold-900 mb-0">Pro</h4><h2 class="text-size-60 text-bold-900 mb-0">$49</h2><h6 class="text-size-12">per month</h6></div><ul class="text-size-14 text-left px-s3 mb-s2 gym-plan on-lime text-dark"><li><i class="fa fa-check-circle"></i>24/7 access</li><li><i class="fa fa-check-circle"></i>Unlimited group classes</li><li><i class="fa fa-check-circle"></i>Sauna &amp; recovery zone</li><li><i class="fa fa-check-circle"></i>1 personal training session / month</li><li><i class="fa fa-check-circle"></i>Bring a friend on weekends</li></ul><a data-hash data-hash-offset="70" href="#join" class="btn btn-dark rounded-0 text-uppercase text-bold-800 text-size-s1 pl-s3 pr-s3">Join now</a></div></div>
+				<div class="col-lg-4 col-md-6 col-sm-12"><div class="bg-v9-dark text-center text-white mt-s2 mb-s2 bs-solid bw-s1 bc-v3-white"><div class="p-s3"><h4 class="text-size-20 text-uppercase text-bold-900 mb-0">Elite</h4><h2 class="g-text text-size-50 text-bold-900 mb-0">$79</h2><h6 class="text-size-12 text-v6-white">per month</h6></div><ul class="text-size-14 text-left px-s3 mb-s2 gym-plan"><li><i class="fa fa-check-circle"></i>Everything in Pro</li><li><i class="fa fa-check-circle"></i>4 personal training sessions / month</li><li><i class="fa fa-check-circle"></i>Custom nutrition plan</li><li><i class="fa fa-check-circle"></i>Priority class booking</li><li><i class="fa fa-check-circle"></i>Towel &amp; locker service</li></ul><a data-hash data-hash-offset="70" href="#join" class="btn bs-solid bw-s2 bc-v3-white text-white g-bg--hover text-dark--hover g-bc--hover text-uppercase text-bold-800 text-size-s1 rounded-0 text-size-s1 mb-s3">Choose plan</a></div></div>
+			</div>
+			<p class="text-center text-v6-white text-size-s1 mt-s2 mb-0">No joining fee &middot; Cancel any time after the first month &middot; Student and senior discounts available.</p>
+		</div>
+	</section>
+	<section id="reviews" class="bg-v9-dark pt-s5 pb-s5">
+		<div class="container">
+			<div class="text-center"><h6 class="text-bold-700 g-text text-uppercase g-ls">Member stories</h6><h1 class="text-bold-800 text-white text-size-40 text-uppercase">Real people, real results</h1><div class="mt-s2 mb-s3"><hr class="w--60 bs-solid g-bc bw-s5 bt-0 bl-0 br-0 mt-0"></div></div>
+			<div class="row justify-content-center"><div class="col-lg-8 col-md-10 col-sm-12">
+				<div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 30, 'loop': true, 'autoplay': true, 'autoplayTimeout': 6000, 'nav': false, 'dots': true}"><div class="text-center px-s2"><div class="g-text text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="text-white text-size-20 text-bold-300 mb-s3">&ldquo;I had never lifted before. The coaches here made every session simple, and the community kept me coming back. Best decision I made this year.&rdquo;</p><img src="assets/images/gym/member-1.svg" alt="Daniel R." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="text-white text-bold-800 text-size-14 mt-s1 mb-0">Daniel R.</h5><span class="g-text text-size-12 text-uppercase text-bold-700">Lost 18 kg in 6 months</span></div><div class="text-center px-s2"><div class="g-text text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="text-white text-size-20 text-bold-300 mb-s3">&ldquo;Spin and strength classes got me race-ready. The schedule is flexible, and the 24/7 access fits perfectly around my shifts.&rdquo;</p><img src="assets/images/gym/member-2.svg" alt="Hannah L." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="text-white text-bold-800 text-size-14 mt-s1 mb-0">Hannah L.</h5><span class="g-text text-size-12 text-uppercase text-bold-700">Marathon finisher</span></div><div class="text-center px-s2"><div class="g-text text-size-18 mb-s2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><p class="text-white text-size-20 text-bold-300 mb-s3">&ldquo;Clean, never overcrowded, and the trainers actually care. I have hit personal bests on every lift since joining.&rdquo;</p><img src="assets/images/gym/member-3.svg" alt="Omar K." class="rounded-circle mx-auto" style="width:64px;height:64px;object-fit:cover"><h5 class="text-white text-bold-800 text-size-14 mt-s1 mb-0">Omar K.</h5><span class="g-text text-size-12 text-uppercase text-bold-700">Member for 3 years</span></div></div>
+			</div></div>
+		</div>
+	</section>
+	<section id="join" class="pt-s5 pb-s5 overlay-wrap" data-plugin-parallax data-plugin-options="{'speed': 1.4}" data-image-src="assets/images/bg/bg-1.jpg">
+		<div class="container overlay-container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-12 mb-s3">
+					<h6 class="text-bold-700 g-text text-uppercase g-ls">Limited offer</h6>
+					<h1 class="text-bold-900 text-white text-size-50 text-uppercase">Your first week is <span class="g-text">free</span></h1>
+					<p class="text-white text-size-18 text-bold-300 mb-s3">Join today, try every class and every machine, and meet your coach. No credit card needed for the trial week.</p>
+					<ul class="text-white text-bold-600"><li class="mb-s1"><i class="fa fa-check-circle g-text mr-s1"></i> Free fitness assessment</li><li class="mb-s1"><i class="fa fa-check-circle g-text mr-s1"></i> Personalised starter plan</li><li><i class="fa fa-check-circle g-text mr-s1"></i> Access to all group classes</li></ul>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<form class="bg-dark p-s4 bs-solid g-bc bw-s5 bb-0 bl-0 br-0" action="#" onsubmit="return false;">
+						<h3 class="text-white text-bold-800 text-uppercase text-size-24 mb-s2">Claim your free week</h3>
+						<div class="form-row"><div class="form-group col-md-6"><input type="text" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white gym-input" placeholder="Full name"></div><div class="form-group col-md-6"><input type="tel" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white gym-input" placeholder="Phone number"></div></div>
+						<div class="form-group"><input type="email" class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white gym-input" placeholder="Email address"></div>
+						<div class="form-group"><select class="form-control bg-v9-dark text-white text-size-12 pt-16 pb-16 pl-20 pr-20 text-bold-600 rounded-0 bs-solid bw-s1 bc-v3-white"><option>Your main goal</option><option>Lose weight</option><option>Build muscle</option><option>Improve fitness</option><option>Train for an event</option></select></div>
+						<button type="submit" class="btn btn-lg g-bg text-dark bg-white--hover text-uppercase text-bold-800 text-size-s1 rounded-0 box-shadow-v2-s1 hover-icon-wobble-horizontal btn-block">Get my free week</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="overlay bg-v9-dark"></div>
+	</section>
+	<footer class="bg-v9-dark pt-s5 pb-s3 bs-solid bc-v3-white bw-s1 bb-0 bl-0 br-0">
+		<div class="container"><div class="row">
+			<div class="col-lg-4 col-md-12"><div class="mt-s2 mb-s2"><a href="index-gym.html"><img class="mb-s3" src="assets/images/gym/logo-light.svg" alt="ForgeFit Strength Club" style="max-height:50px;width:auto"></a><p class="text-v6-white">A strength-first fitness club with expert coaching, world-class equipment and a community that lifts you up.</p><ul class="social list-inline text-size-s1 mt-s3"><li class="list-inline-item mr-s1"><a class="bg-white text-dark g-bg--hover rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark g-bg--hover rounded-circle" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark g-bg--hover rounded-circle" href="#"><i class="fab fa-instagram"></i></a></li><li class="list-inline-item mr-s1"><a class="bg-white text-dark g-bg--hover rounded-circle" href="#"><i class="fab fa-youtube"></i></a></li></ul></div></div>
+			<div class="col-lg-2 col-md-4 col-sm-6"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1">Explore</h5><hr class="w--40 bs-solid g-bc bw-s3 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul><li class="mb-s1"><i class="icon-arrow-right g-text text-size-8 mr-s1"></i> <a class="text-v6-white g-text--hover" href="#classes" data-hash data-hash-offset="70">Group classes</a></li><li class="mb-s1"><i class="icon-arrow-right g-text text-size-8 mr-s1"></i> <a class="text-v6-white g-text--hover" href="#trainers" data-hash data-hash-offset="70">Personal training</a></li><li class="mb-s1"><i class="icon-arrow-right g-text text-size-8 mr-s1"></i> <a class="text-v6-white g-text--hover" href="#schedule" data-hash data-hash-offset="70">Class schedule</a></li><li class="mb-s1"><i class="icon-arrow-right g-text text-size-8 mr-s1"></i> <a class="text-v6-white g-text--hover" href="#pricing" data-hash data-hash-offset="70">Membership plans</a></li><li class="mb-s1"><i class="icon-arrow-right g-text text-size-8 mr-s1"></i> <a class="text-v6-white g-text--hover" href="#reviews" data-hash data-hash-offset="70">Member stories</a></li></ul></div></div>
+			<div class="col-lg-3 col-md-4 col-sm-6"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1">Opening hours</h5><hr class="w--40 bs-solid g-bc bw-s3 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul class="text-v6-white"><li class="mb-s1">Staffed: <span class="text-white text-bold-600">5am - 11pm</span></li><li class="mb-s1">Members access: <span class="g-text text-bold-600">24 / 7</span></li><li class="mb-s1">Classes: <span class="text-white text-bold-600">6am - 8pm</span></li></ul></div></div>
+			<div class="col-lg-3 col-md-4 col-sm-12"><div class="mt-s2 mb-s2"><h5 class="text-white text-bold-600 text-uppercase mb-s1">Get in touch</h5><hr class="w--40 bs-solid g-bc bw-s3 bt-0 bl-0 br-0 mt-0 ml-0 mb-s3"><ul class="text-v6-white"><li class="mb-s2 d-flex"><i class="fa fa-map-marker g-text text-size-18 mr-s2"></i><span>220 Mission Street<br>San Francisco, CA 94105</span></li><li class="mb-s2 d-flex"><i class="fa fa-phone g-text text-size-18 mr-s2"></i><span>(123) 456-7890</span></li><li class="d-flex"><i class="fa fa-envelope g-text text-size-18 mr-s2"></i><a class="text-v6-white g-text--hover" href="mailto:hello@forgefit.example">hello@forgefit.example</a></li></ul></div></div>
+		</div></div>
+	</footer>
+	<footer class="bg-dark pt-s2 pb-s2"><div class="container"><p class="m-0 text-v6-white text-size-s1 text-center">&copy; Copyright 2026 <a href="#" class="text-white g-text--hover text-bold-700">ForgeFit Strength Club</a>. All rights reserved. Demo content only.</p></div></footer>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/vendors/appear/jquery.appear.min.js"></script>
+	<script src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/vendors/common/common.min.js"></script>
+
+	<!-- FANCY-BOX -->
+	<script src="assets/vendors/fancybox/jquery.fancybox.min.js"></script>
+
+	<!-- MENU -->
+	<script src="assets/vendors/menu/src/main.menu.js"></script>
+
+	<!-- CAROUSEL -->
+	<script src="assets/vendors/owl.carousel/owl.carousel.min.js"></script>
+
+	<!-- ANIMATED-HEADLINES -->
+	<script src="assets/vendors/animated-headline/js/animated-headline.js"></script>
+
+	<!-- VIDEO-BACKGROUND -->
+	<script src="assets/vendors/vide/vide.min.js"></script>
+
+	<!-- COUNDOWN -->
+	<script src="assets/vendors/countdown/jquery.countdown.min.js"></script>
+
+	<!-- ELEVATEZOOM-MASTER -->
+	<script src="assets/vendors/elevatezoom-master/jquery.elevatezoom.js"></script>
+
+
+
+	<!-- MAP (required by custom.js) -->
+	<script src="assets/vendors/gmap/jquery.gmap.min.js"></script>
+
+	<!-- THEME-CUSTOM -->
+	<script src="assets/js/main.js"></script>
+
+	<!-- THEME-INITIALIZATION-FILES -->
+	<script src="assets/js/theme.init.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+	<script>
+	(function(){var b=document.getElementById('bmi-go');if(!b)return;b.addEventListener('click',function(){
+		var h=parseFloat(document.getElementById('bmi-h').value)/100,w=parseFloat(document.getElementById('bmi-w').value),o=document.getElementById('bmi-out');
+		if(!h||!w){o.innerHTML='<span class="text-v6-white text-size-s1">Please enter height and weight.</span>';return;}
+		var v=w/(h*h),t=v<18.5?'Underweight':v<25?'Healthy range':v<30?'Overweight':'Obese';
+		o.innerHTML='<div class="g-text text-size-40 text-bold-900">'+v.toFixed(1)+'</div><div class="text-white text-bold-700 text-uppercase text-size-s1">'+t+'</div>';});})();
+	</script>
+</body>
+</html>
